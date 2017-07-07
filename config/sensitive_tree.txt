@@ -1,0 +1,28 @@
+1,0,Any Illness
+2,1,Infectious Disease
+3,1,Pulmonary Disease
+4,1,Non-healing Wound Disease
+5,2,Weakness of Immune System
+6,3,Restrictive Lung
+7,3,Lung Infection
+8,3,Obstructive Lung
+9,4,High Blood Sugar
+10,5,Lupus
+11,5,HIV
+12,5,Padding1
+14,6,Pneumonia
+15,6,Pleurisy
+13,6,Padding2
+16,6,Padding3
+17,6,Padding4
+18,7,Flu
+19,7,Cold
+20,7,SARS
+21,8,Bronchitis
+22,8,Asthma
+23,8,Padding5
+24,8,Padding6
+28,8,Padding8
+25,9,Diabetes
+26,9,Pancreatitis
+27,9,Padding7

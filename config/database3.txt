@@ -1,0 +1,7 @@
+1,0,b2,d3,c4,f6,a7,e8 HIV
+2,1,c4,f6,a7,e9 SARS
+3,0,d3,c4,a7 Pancreatitis
+4,2,b2,f6,a7,e8 HIV
+5,1,d5,f6,e9 Flu
+6,0,c4,d5,f6 Diabetes
+7,-1,b2,f6,e9 Cold
