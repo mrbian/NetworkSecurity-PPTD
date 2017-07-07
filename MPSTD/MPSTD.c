@@ -81,7 +81,7 @@ char * getMaxPssPoint(trackRow * row, trackSet * Tc, database * db){
 
 database * mpstd(database * OriginDB, treeNode * root, database * Ts, trackSet * A, float PbThreshold){
     trackSet *Tc = trackSetInit();
-    database * Bj, * Cj, *matched, *Tg, *Cz, *Dz, *ri;
+    database * Bj, * Cj, *matched, *Tg, *Cz, *Dz, *ri, *matchedTemp;
     trackRow * tz;
     char * pzq;
 
@@ -131,11 +131,14 @@ database * mpstd(database * OriginDB, treeNode * root, database * Ts, trackSet *
     // 9
     while(Tc->count != 0){
         // 10 - 11
-        // tz 有可能是集合 ...
+        // todo tz和pzq有可能是集合 ...
         tz = getMaxPssRow(Tc,Ts);
         Cz = initDb();
         matched = matchRowByTrajectory(Ts,tz->tracks,tz->count);
         for(i=0;i<row_count-1;i++){
+            if(matched[i] == NULL)
+                continue;
+
             if(caculateBreachProbability(OriginDB,Ts,root,matched[i]->id,tz->tracks,tz->count) > PbThreshold){
                 insertRow(Cz,matched[i]->id,matched[i]->p_level,matched[i]->trajectory,matched[i]->trajectoryCount,matched[i]->disease);
             }
@@ -181,20 +184,31 @@ database * mpstd(database * OriginDB, treeNode * root, database * Ts, trackSet *
 
             // 19
             Ts = DBUnion(Ts, ri);
+
             // 20
             Cz = initDb();
+            matchedTemp = matchRowByTrajectory(Ts,tz->tracks,tz->count);
             for (j = 0; j < row_count - 1; j++) {
-                if (Ts[j] == NULL)
+                if (matchedTemp[j] == NULL)
                     continue;
 
-                if (caculateBreachProbability(OriginDB, Ts, root, Ts[j]->id, tz->tracks, tz->count) > PbThreshold) {
-                    insertRow(Cz, Ts[j]->id, Ts[j]->p_level, Ts[j]->trajectory, Ts[j]->trajectoryCount, Ts[j]->disease);
+                if (caculateBreachProbability(OriginDB, Ts, root, matchedTemp[j]->id, tz->tracks, tz->count) > PbThreshold) {
+                    insertRow(Cz, matchedTemp[j]->id, matchedTemp[j]->p_level, matchedTemp[j]->trajectory, matchedTemp[j]->trajectoryCount, matchedTemp[j]->disease);
                 }
             }
         }
 
         // 22 - 24
-//        for()
+        for(i=0;i<row_count-1;i++){
+            if(Dz[i] == NULL)
+                continue;
+
+            // mcst
+            trackSet * set_temp = mcst(OriginDB,root,Ts,tz,pzq,PbThreshold);
+            for(j=0;j<set_temp->count;j++){
+                insertToSet(Tc,set_temp->trackCollection[j]);
+            }
+        }
 
         // 25
         for(i=0;i<Tc->count;i++){

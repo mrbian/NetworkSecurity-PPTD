@@ -7,6 +7,8 @@
 
 #include <stdio.h>
 #include "../SAGTD/SAGTD.h"
+#include "../SAGTD/common/common.h"
+#include "MCST.h"
 
 // 轨迹集合内一个点所匹配到的数目
 int getLenOfMatchRowByPoint(char * track, trackSet * Tc);

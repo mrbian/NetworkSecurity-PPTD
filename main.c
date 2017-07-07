@@ -34,6 +34,7 @@ int main()
     migrate(originDB,DB_FILE_PATH_3);     // originDB
     printf("the origin db is\n");
     traverseDb(originDB,printRow);
+    printf("\n");
 
     // tree
     treeNode * root = migrateTree(CONFIG_PATH);
@@ -47,11 +48,15 @@ int main()
     sortDB(Ts);
     printf("After SAGTD the result is \n");
     traverseDb(Ts,printRow);
+    printf("\n");
+
 
     // MPSTD
     database * Tg = mpstd(originDB,root,Ts,A,Pb);
+    sortDB(Tg);
     printf("After MPSTD the result is \n");
     traverseDb(Tg,printRow);
+    printf("\n");
 
     return 0;
 }
