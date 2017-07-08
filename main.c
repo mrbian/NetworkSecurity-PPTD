@@ -1,47 +1,48 @@
 #include <stdio.h>
 #include "LinkedList/LinkedList.h"
-#include "BinaryTreeNode/BinaryTreeNode.h"
-#include "Queue/queue.h"
 #include "Tree/tree.h"
 #include "Database/database.h"
 #include "SAGTD/common/common.h"
 #include "SAGTD/STR/str.h"
 #include "SAGTD/SAGTD.h"
 #include "MPSTD/MPSTD.h"
+#include "sagtd_print.h"
+#include "mpstd_print.h"
 
-//#define Î´ 2
-//#define Ïƒ 0.5
+//#define ¦Ä 2
+//#define ¦Ò 0.5
 
-// æ€»å¾ªç¯æ‰“å°å‡½æ•°
+// ×ÜÑ­»·´òÓ¡º¯Êı
 int inputChoice(){
     int choice;
     printf("--------------------------------------PPTD--------------------------------------\n");
-    printf("1ã€è¾“å‡ºå½“å‰æ•°æ®åº“\n");
-    printf("2ã€å¹¿åº¦ä¼˜å…ˆéå†è¾“å‡ºæ•æ„Ÿå±æ€§æ ‘\n");
-    printf("3ã€è¾“å…¥æ”»å‡»åºåˆ—è®¡ç®—å½“å‰æ•°æ®åº“æŸè¡Œæ³„éœ²æ¦‚ç‡\n");
-    printf("4ã€å¯¹å½“å‰æ•°æ®åº“å®æ–½SAGTDç®—æ³•ï¼Œè®¾ç½®æœ€å¤§æ³›åŒ–æ·±åº¦å’Œæ³„éœ²æ¦‚ç‡é˜ˆå€¼ï¼ŒæŸ¥çœ‹è¿‡ç¨‹\n");
-    printf("5ã€å¯¹å½“å‰æ•°æ®åº“å®æ–½MPSTDç®—æ³•ï¼Œè®¾ç½®æœ€å¤§æ³›åŒ–æ·±åº¦å’Œæ³„éœ²æ¦‚ç‡é˜ˆå€¼ï¼ŒæŸ¥çœ‹è¿‡ç¨‹\n");
-    printf("6ã€è¾“å‡ºåŸå§‹æ•°æ®åº“\n");
-    printf("7ã€é‡ç½®æ•°æ®åº“\n");
-    printf("è¯·è¾“å…¥1-7é€‰æ‹©ç›¸åº”çš„é€‰é¡¹ï¼š");
+    printf("1¡¢Êä³öµ±Ç°Êı¾İ¿â\n");
+    printf("2¡¢¹ã¶ÈÓÅÏÈ±éÀúÊä³öÃô¸ĞÊôĞÔÊ÷\n");
+    printf("3¡¢ÊäÈë¹¥»÷ĞòÁĞ¼ÆËãµ±Ç°Êı¾İ¿âÄ³ĞĞĞ¹Â¶¸ÅÂÊ\n");
+    printf("4¡¢¶Ôµ±Ç°Êı¾İ¿âÊµÊ©SAGTDËã·¨£¬ÉèÖÃ×î´ó·º»¯Éî¶ÈºÍĞ¹Â¶¸ÅÂÊãĞÖµ£¬²é¿´¹ı³Ì\n");
+    printf("5¡¢¶Ôµ±Ç°Êı¾İ¿âÊµÊ©MPSTDËã·¨£¬ÉèÖÃ×î´ó·º»¯Éî¶ÈºÍĞ¹Â¶¸ÅÂÊãĞÖµ£¬²é¿´¹ı³Ì\n");
+    printf("6¡¢Êä³öÔ­Ê¼Êı¾İ¿â\n");
+    printf("7¡¢ÖØÖÃÊı¾İ¿â\n");
+    printf("8¡¢ÍË³ö³ÌĞò\n");
+    printf("ÇëÊäÈë1-7Ñ¡ÔñÏàÓ¦µÄÑ¡Ïî£º");
     scanf("%d",&choice);
-    if(choice > 7 || choice < 1){
-        printf("è¾“å…¥ä¸åˆæ³•\n");
+    if(choice > 8 || choice < 1){
+        printf("ÊäÈë²»ºÏ·¨\n");
         return -1;
     }
     return choice;
 }
 
-// 3ã€è¾“å…¥æ”»å‡»åºåˆ—è®¡ç®—æ³„éœ²æ¦‚ç‡å‡½æ•°
+// 3¡¢ÊäÈë¹¥»÷ĞòÁĞ¼ÆËãĞ¹Â¶¸ÅÂÊº¯Êı
 void caculateFunc(database * originDB,treeNode * root, database *db){
     int row_id, t_count, i = 0;
     char ** track;
-    printf("å½“å‰æ•°æ®åº“ä¸ºï¼š\n");
+    printf("µ±Ç°Êı¾İ¿âÎª£º\n");
     traverseDb(db,printRow);
 
-    printf("è¯·è¾“å…¥æ”»å‡»åºåˆ—ä¸ªæ•°\n");
+    printf("ÇëÊäÈë¹¥»÷ĞòÁĞ¸öÊı\n");
     scanf("%d", &t_count);
-    printf("è¯·è¾“å…¥æ”»å‡»åºåˆ—\n");
+    printf("ÇëÊäÈë¹¥»÷ĞòÁĞ\n");
     track = (char **)malloc(sizeof(char *) * t_count);
     while(i < t_count){
         scanf("%s",track[i]);
@@ -49,120 +50,15 @@ void caculateFunc(database * originDB,treeNode * root, database *db){
     }
     trackRow * row = initOneRow(track,t_count);
 
-    printf("è¯·è¾“å…¥å¾…è®¡ç®—çš„è¡Œçš„idï¼š");
+    printf("ÇëÊäÈë´ı¼ÆËãµÄĞĞµÄid£º");
     scanf("%d",&row_id);
     while(row_id > 7 || row_id < 1){
-        printf("è¾“å…¥ä¸åˆæ³•ï¼Œè¯·é‡æ–°è¾“å…¥ï¼›\n");
-        printf("è¯·è¾“å…¥è¡Œidï¼š");
+        printf("ÊäÈë²»ºÏ·¨£¬ÇëÖØĞÂÊäÈë£»\n");
+        printf("ÇëÊäÈëĞĞid£º");
         scanf("%d",&row_id);
     }
 
-    printf("æœ¬è¡Œçš„æ³„éœ²æ¦‚ç‡æ˜¯: %-5.2f\n", caculateBreachProbability(originDB,db,root,row_id,row->tracks,row->count));
-}
-
-// SAGTDé€æ­¥æ‰“å°å‡½æ•°
-int SAGTDBreakFunc(database * Bj, database *Cj,  database * T, float PbThreshold, int maxDepth, trackRow * attack_row){
-    printf("å½“å‰æœ€å¤§æ³›åŒ–æ·±åº¦æ˜¯%5dï¼Œæ³„éœ²æ¦‚ç‡é˜ˆå€¼æ˜¯%5.2f\n",maxDepth,PbThreshold);
-    printf("å½“å‰æ”»å‡»åºåˆ—ä¸º\n");
-    _printSetData(attack_row);
-    printf("Bjçš„ç»“æœæ˜¯\n");
-    traverseDb(Bj,printRow);
-    printf("Cjçš„ç»“æœæ˜¯\n");
-    traverseDb(Cj,printRow);
-    printf("SAGç®—æ³•åç»“æœTæ˜¯\n");
-    traverseDb(T,printRow);
-    printf("å›è½¦è¿›å…¥ä¸‹ä¸€æ¬¡å¾ªç¯ï¼Œè¾“å…¥ä»»æ„å­—ç¬¦åœæ­¢é€æ­¥è¾“å‡ºï¼Œç›´æ¥è¾“å‡ºSAGTDç»“æœ\n");
-    char * input = (char*)malloc(sizeof(char) * 100);
-    int result;
-    result = gets(input)[0] == '\0' ? 1 : 0;
-    free(input);
-    input = NULL;
-    return result;
-}
-
-// SAGTDä¸é€æ­¥æ‰“å°å‡½æ•°
-int SAGTDNonBreakFunc(database * Bj, database *Cj,  database * T, float PbThreshold, int maxDepth, trackRow * attack_row){
-    return 0;
-}
-
-// 4ã€å¯¹å½“å‰æ•°æ®åº“å®æ–½SAGTDç®—æ³•ï¼Œè®¾ç½®æœ€å¤§æ³›åŒ–æ·±åº¦å’Œæ³„éœ²æ¦‚ç‡é˜ˆå€¼ï¼ŒæŸ¥çœ‹è¿‡ç¨‹
-int SAGTDChoice(){
-    int choice;
-    printf("è¯·è¾“å…¥åºå·1-4é€‰æ‹©æƒ³è¦æŸ¥çœ‹çš„SAGTDæ“ä½œï¼š\n");
-    printf("1ã€æŸ¥çœ‹STRç®—æ³•ç»“æœ\n");
-    printf("2ã€é€æ­¥æŸ¥çœ‹SAGTDç»“æœ\n");
-    printf("3ã€é‡ç½®æ•°æ®åº“\n");
-    printf("4ã€æŸ¥çœ‹SAGTDç»“æœ\n");
-    printf("5ã€é€€å‡ºSAGTDç®—æ³•\n");
-    printf("è¯·è¾“å…¥åºå·1-5ï¼š");
-    while( scanf("%d",&choice) == 0 || choice < 0 || choice > 5){
-        printf("è¾“å…¥ä¸åˆæ³•ï¼Œè¯·è¾“å…¥1-5ä¹‹é—´çš„æ•°ï¼š");
-    }
-    return choice;
-}
-
-// SAGTDç®—æ³•å‡½æ•°
-void SAGTDFunc(database * originDB,treeNode * root,database * db){
-    int maxDepth;
-    float Pb;
-    printf("è¯·è¾“å…¥æœ€å¤§æ³›åŒ–æ·±åº¦:");
-    scanf("%d",&maxDepth);
-    while(maxDepth < 0 || maxDepth > treeHeight){
-        printf("è¾“å…¥ä¸åˆæ³•ï¼Œè¯·è¾“å…¥%d-%dä¹‹é—´çš„æ•°\n",0,treeHeight);
-        scanf("%d",&maxDepth);
-    }
-
-    printf("è¯·è®¾ç½®æ³„éœ²æ¦‚ç‡é˜ˆå€¼ï¼š");
-    scanf("%f",&Pb);
-    while(Pb < 0 || Pb > 1){
-        printf("è¾“å…¥ä¸åˆæ³•ï¼Œæ³„éœ²æ¦‚ç‡åœ¨0-1ä¹‹é—´\n");
-        scanf("%f",&Pb);
-    }
-
-    int choice;
-    trackSet *A;
-    database *Ts;
-    while(1){
-        choice = SAGTDChoice();
-
-        switch(choice){
-            case 1:
-                A = str_main(db,maxDepth);
-                traverseSet(A,printSet);
-                printf("æ”»å‡»åºåˆ—çš„ä¸ªæ•°æ˜¯ï¼š%d\n", A->count);
-                break;
-
-            case 2:
-                Ts = SAGTD(originDB,db,root,maxDepth,Pb,maxDepth,1,SAGTDBreakFunc);
-                printf("SAGTDç»“æœä¸ºï¼š\n");
-                traverseDb(Ts,printRow);
-                break;
-
-            case 3:
-                // todo åŸå†…å­˜æœªé‡Šæ”¾
-                db = initDb();
-                migrate(db,DB_FILE_PATH_3);
-                Ts = db;
-                printf("é‡ç½®ç»“æœä¸º\n");
-                traverseDb(db,printRow);
-                break;
-
-            case 4:
-                Ts = SAGTD(originDB,db,root,maxDepth,Pb,maxDepth,0,SAGTDNonBreakFunc);
-                printf("SAGTDç»“æœä¸ºï¼š\n");
-                traverseDb(Ts,printRow);
-                break;
-
-            case 5:
-                return;
-
-            default:
-                continue;
-        }
-
-        system("pause");
-
-    }
+    printf("±¾ĞĞµÄĞ¹Â¶¸ÅÂÊÊÇ: %-5.2f\n", caculateBreachProbability(originDB,db,root,row_id,row->tracks,row->count));
 }
 
 void main_thread(database * originDB,treeNode * root,database * db){
@@ -192,18 +88,27 @@ void main_thread(database * originDB,treeNode * root,database * db){
                 return;
 
             case 6:
-                printf("åŸå§‹æ•°æ®åº“æ˜¯\n");
+                printf("Ô­Ê¼Êı¾İ¿âÊÇ\n");
                 traverseDb(originDB,printRow);
                 break;
 
             case 7:
-                // todo : åŸå†…å­˜æœªé‡Šæ”¾
+                // todo : Ô­ÄÚ´æÎ´ÊÍ·Å
                 db = initDb();
                 migrate(db,DB_FILE_PATH_3);
                 break;
+
+            case 8:
+                return;
+
+            default:
+                system("pause");
+                system("cls");
+                continue;
         }
 
         system("pause");
+        system("cls");
     }
 }
 
@@ -223,6 +128,7 @@ int main()
 
     main_thread(originDB,root,db);
 
+    // Ö±½Ó½á¹û
 //    int maxDepth = 2;
 //    float Pb = 0.5;
 //    // STR
