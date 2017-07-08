@@ -15,7 +15,7 @@ int getIdxOfpzq(trackRow * tz, char *pzq){
     return idx;
 }
 
-trackSet * mcst(database * originDB, treeNode * root, database * Ts, trackRow * tz, char * pzq, float PbThreshold){
+trackSet * mcst(database * originDB, treeNode * root, database * Ts, trackRow * tz, char * pzq, float PbThreshold, int maxDepth){
     trackSet ** ASetArr;
     ASetArr = (trackSet **)malloc(sizeof(trackSet *) * (maxDepth + 1));
     int i,j,k;

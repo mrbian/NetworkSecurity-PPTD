@@ -11,8 +11,7 @@
 #include "../Tree/tree.h"
 #include "SAG/sag.h"
 
-#define maxDepth 2
-
-database * SAGTD(database * originDB, treeNode* root, int MaxSetNum,float PbThreshold);
+database * SAGTD(database * originDB, database *db ,treeNode* root, int MaxSetNum,float PbThreshold, int maxDepth,
+                 int breakFlag, int (*breakFun)(database *, database *, database *, float, int, trackRow *));
 
 #endif //PPTD_SAGTD_H

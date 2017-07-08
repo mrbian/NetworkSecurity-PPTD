@@ -55,6 +55,8 @@ treeNode ** getSubsetsOfNode(treeNode * node);
 // 得到所有子树集合的长度
 int getSubsetsLengthOfNode(treeNode * node);
 
+void _printText(treeNode * node);
+
 void _tree_main();
 
 #endif

@@ -79,7 +79,7 @@ char * getMaxPssPoint(trackRow * row, trackSet * Tc, database * db){
     return result;
 }
 
-database * mpstd(database * OriginDB, treeNode * root, database * Ts, trackSet * A, float PbThreshold){
+database * mpstd(database * OriginDB, treeNode * root, database * Ts, trackSet * A, float PbThreshold, int maxDepth){
     trackSet *Tc = trackSetInit();
     database * Bj, * Cj, *matched, *Tg, *Cz, *Dz, *ri, *matchedTemp;
     trackRow * tz;
@@ -204,7 +204,7 @@ database * mpstd(database * OriginDB, treeNode * root, database * Ts, trackSet *
                 continue;
 
             // mcst
-            trackSet * set_temp = mcst(OriginDB,root,Ts,tz,pzq,PbThreshold);
+            trackSet * set_temp = mcst(OriginDB,root,Ts,tz,pzq,PbThreshold,maxDepth);
             for(j=0;j<set_temp->count;j++){
                 insertToSet(Tc,set_temp->trackCollection[j]);
             }

@@ -26,6 +26,6 @@ trackRow * getMaxPssRow(trackSet * Tc, database * db);
 char * getMaxPssPoint(trackRow * row, trackSet * Tc, database * db);
 
 
-database * mpstd(database * OriginDB, treeNode * root, database * Ts, trackSet * A, float PbThreshold);
+database * mpstd(database * OriginDB, treeNode * root, database * Ts, trackSet * A, float PbThreshold, int maxDepth);
 
 #endif //PPTD_MPSTD_H

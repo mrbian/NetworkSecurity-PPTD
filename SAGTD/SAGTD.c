@@ -3,10 +3,8 @@
 //
 #include "SAGTD.h"
 
-database * SAGTD(database * originDB, treeNode* root, int MaxSetNum,float PbThreshold){
-    database * db = initDb();
-    migrate(db,Db_Config_Path);
-//    traverseDb(db,printRow);
+database * SAGTD(database * originDB, database *db, treeNode* root, int MaxSetNum,float PbThreshold,int maxDepth,
+                 int breakFlag, int (*breakFun)(database *, database *, database *, float, int, trackRow *)){
     // 1
     trackSet * AResult = str_main(db,MaxSetNum);
 
@@ -81,6 +79,11 @@ database * SAGTD(database * originDB, treeNode* root, int MaxSetNum,float PbThre
             database * temp = sag(originDB, db,root,background,Cj,maxDepth,PbThreshold);
 //            traverseDb(temp,printRow);
             db = DBUnion(DBSub(db,Cj),temp);
+        }
+
+        // 根据标识符判断是否打印步骤，用户可以随时退出
+        if(breakFlag){
+            breakFlag = breakFun(Bj,Cj,db,PbThreshold,maxDepth,background);
         }
 
     }

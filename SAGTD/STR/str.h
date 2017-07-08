@@ -45,6 +45,8 @@ trackSet * getA1FromT(database * db);
 // 轨迹的联结
 trackRow * joinTracks(trackRow * track1, trackRow * track2);
 
+void _printSetData(trackRow * row);
+
 // print
 void printSet(trackRow * row);
 

@@ -7,6 +7,6 @@
 
 #include "../SAGTD/SAGTD.h"
 
-trackSet * mcst(database * originDB, treeNode * root, database * Ts, trackRow * tz, char * pzq, float PbThreshold);
+trackSet * mcst(database * originDB, treeNode * root, database * Ts, trackRow * tz, char * pzq, float PbThreshold, int maxDepth);
 
 #endif //PPTD_MCST_H
