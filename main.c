@@ -20,11 +20,11 @@ int inputChoice(){
     printf("2、广度优先遍历输出敏感属性树\n");
     printf("3、输入攻击序列计算当前数据库某行泄露概率\n");
     printf("4、对当前数据库实施SAGTD算法，设置最大泛化深度和泄露概率阈值，查看过程\n");
-    printf("5、对当前数据库实施MPSTD算法，设置最大泛化深度和泄露概率阈值，查看过程\n");
+    printf("5、对当前数据库实施MPSTD算法，设置最大泛化深度和泄露概率阈值，查看过程（自动运行一次SAGTD）\n");
     printf("6、输出原始数据库\n");
     printf("7、重置数据库\n");
     printf("8、退出程序\n");
-    printf("请输入1-7选择相应的选项：");
+    printf("请输入1-8选择相应的选项：");
     scanf("%d",&choice);
     if(choice > 8 || choice < 1){
         printf("输入不合法\n");
@@ -35,16 +35,17 @@ int inputChoice(){
 
 // 3、输入攻击序列计算泄露概率函数
 void caculateFunc(database * originDB,treeNode * root, database *db){
-    int row_id, t_count, i = 0;
+    int row_id, t_count = 1, i = 0;
     char ** track;
     printf("当前数据库为：\n");
     traverseDb(db,printRow);
 
-    printf("请输入攻击序列个数\n");
+    printf("请输入攻击序列个数：");
     scanf("%d", &t_count);
-    printf("请输入攻击序列\n");
+    printf("请输入攻击序列：");
     track = (char **)malloc(sizeof(char *) * t_count);
     while(i < t_count){
+        track[i] = (char *)malloc(sizeof(char) * 3);
         scanf("%s",track[i]);
         i++;
     }
@@ -62,7 +63,22 @@ void caculateFunc(database * originDB,treeNode * root, database *db){
 }
 
 void main_thread(database * originDB,treeNode * root,database * db){
+    int maxDepth;
+    float PbThreshold;
+    printf("请输入最大泛化深度:");
+    while(scanf("%d",&maxDepth) == 0 && maxDepth < 0 || maxDepth > treeHeight){
+        printf("输入不合法，请输入%d-%d之间的数\n",0,treeHeight);
+    }
+
+    printf("请设置泄露概率阈值：");
+    scanf("%f",&PbThreshold);
+    while(PbThreshold < 0 || PbThreshold > 1){
+        printf("输入不合法，泄露概率在0-1之间\n");
+        scanf("%f",&PbThreshold);
+    }
+
     int choice;
+    trackSet * A;
     while(1){
         choice = inputChoice();
 
@@ -77,15 +93,21 @@ void main_thread(database * originDB,treeNode * root,database * db){
                 break;
 
             case 3:
+                system("cls");
                 caculateFunc(originDB,root,db);
                 break;
 
             case 4:
-                SAGTDFunc(originDB,root,db);
+                system("cls");
+                db = SAGTDFunc(originDB,root,db, maxDepth, PbThreshold);
                 break;
 
             case 5:
-                return;
+                system("cls");
+                A = str_main(db,maxDepth);
+                db = SAGTD(originDB,db,root,maxDepth,PbThreshold,maxDepth,0,SAGTDNonBreakFunc);
+                db = MPSTDFunc(originDB,root,db,A,maxDepth,PbThreshold);
+                break;
 
             case 6:
                 printf("原始数据库是\n");

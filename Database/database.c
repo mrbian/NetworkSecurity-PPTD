@@ -133,7 +133,7 @@ void sortDB(database * db){
             continue;
 
         for(j=0;j<row_count - 1 - i;j++){
-            if(db[j] == NULL)
+            if((db[j] == NULL) || (db[j+1] == NULL))
                 continue;
 
             if(db[j]->id > db[j+1]->id){

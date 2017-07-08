@@ -17,6 +17,6 @@ int SAGTDNonBreakFunc(database * Bj, database *Cj,  database * T, float PbThresh
 int SAGTDChoice();
 
 // SAGTD算法演示主函数
-void SAGTDFunc(database * originDB,treeNode * root,database * db);
+database * SAGTDFunc(database * originDB,treeNode * root,database * db, int maxDepth, float PbThreshold);
 
 #endif //PPTD_SAGTD_PRINT_H

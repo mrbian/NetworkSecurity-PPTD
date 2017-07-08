@@ -79,7 +79,8 @@ char * getMaxPssPoint(trackRow * row, trackSet * Tc, database * db){
     return result;
 }
 
-database * mpstd(database * OriginDB, treeNode * root, database * Ts, trackSet * A, float PbThreshold, int maxDepth){
+database * mpstd(database * OriginDB, treeNode * root, database * Ts, trackSet * A, float PbThreshold, int maxDepth,
+                 int breakFlag, int (*breakFunc)(char *, trackSet *, database *)){
     trackSet *Tc = trackSetInit();
     database * Bj, * Cj, *matched, *Tg, *Cz, *Dz, *ri, *matchedTemp;
     trackRow * tz;
@@ -196,6 +197,10 @@ database * mpstd(database * OriginDB, treeNode * root, database * Ts, trackSet *
                     insertRow(Cz, matchedTemp[j]->id, matchedTemp[j]->p_level, matchedTemp[j]->trajectory, matchedTemp[j]->trajectoryCount, matchedTemp[j]->disease);
                 }
             }
+        }
+
+        if(breakFlag){
+            breakFlag = breakFunc(pzq,Tc,Ts);
         }
 
         // 22 - 24
