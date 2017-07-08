@@ -2,3 +2,4 @@
 bin/*
 obj/*
 cmake-build-debug/*
+*.exe
