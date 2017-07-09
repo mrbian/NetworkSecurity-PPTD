@@ -11,7 +11,7 @@
 #define row_count 7
 #define trajectory_item_num 20  // 每一行的轨迹个数最大为20个
 #define disease_len 50
-#define DB_FILE_PATH_3 "C:\\Users\\bian\\Desktop\\code\\PPTD\\config\\database3.txt"
+#define DB_FILE_PATH_3 "../config/database3.txt"
 
 typedef struct row{
     int id;
