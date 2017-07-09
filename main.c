@@ -35,31 +35,45 @@ int inputChoice(){
 
 // 3、输入攻击序列计算泄露概率函数
 void caculateFunc(database * originDB,treeNode * root, database *db){
-    int row_id, t_count = 1, i = 0;
-    char ** track;
-    printf("当前数据库为：\n");
-    traverseDb(db,printRow);
+    while(1){
+        int row_id, t_count = 1, i = 0;
+        char ** track;
+        printf("当前数据库为：\n");
+        traverseDb(db,printRow);
 
-    printf("请输入攻击序列个数：");
-    scanf("%d", &t_count);
-    printf("请输入攻击序列：");
-    track = (char **)malloc(sizeof(char *) * t_count);
-    while(i < t_count){
-        track[i] = (char *)malloc(sizeof(char) * 3);
-        scanf("%s",track[i]);
-        i++;
-    }
-    trackRow * row = initOneRow(track,t_count);
+        printf("请输入攻击序列个数：");
+        scanf("%d", &t_count);
+        printf("请输入攻击序列：");
+        track = (char **)malloc(sizeof(char *) * t_count);
+        while(i < t_count){
+            track[i] = (char *)malloc(sizeof(char) * 3);
+            scanf("%s",track[i]);
+            i++;
+        }
+        trackRow * row = initOneRow(track,t_count);
 
-    printf("请输入待计算的行的id：");
-    scanf("%d",&row_id);
-    while(row_id > 7 || row_id < 1){
-        printf("输入不合法，请重新输入；\n");
-        printf("请输入行id：");
+        printf("请输入待计算的行的id：");
         scanf("%d",&row_id);
-    }
+        while(row_id > 7 || row_id < 1){
+            printf("输入不合法，请重新输入；\n");
+            printf("请输入行id：");
+            scanf("%d",&row_id);
+        }
 
-    printf("本行的泄露概率是: %-5.2f\n", caculateBreachProbability(originDB,db,root,row_id,row->tracks,row->count));
+        printf("本行的泄露概率是: %-5.2f\n", caculateBreachProbability(originDB,db,root,row_id,row->tracks,row->count));
+        printf("回车进入下一次计算，输入任意字符退出\n");
+
+        // 清空stdin
+        fflush(stdin);
+
+        int result;
+        result = getchar() == '\n' ? 1 : 0;
+        if(!result){
+            return;
+        }else{
+            system("cls");
+        }
+    }
 }
 
 void main_thread(database * originDB,treeNode * root,database * db){

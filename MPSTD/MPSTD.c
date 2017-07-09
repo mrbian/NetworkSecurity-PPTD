@@ -150,6 +150,7 @@ database * mpstd(database * OriginDB, treeNode * root, database * Ts, trackSet *
         Dz = initDb();
 
         while (getLengthOfDB(Cz) != 0) {
+            traverseDb(Cz,printRow);
             // 15
             ri = initDb();
             int max_p_level = 0;
@@ -157,7 +158,7 @@ database * mpstd(database * OriginDB, treeNode * root, database * Ts, trackSet *
                 if (Cz[i] == NULL)
                     continue;
 
-                if (Cz[i]->p_level > max_p_level) {
+                if (Cz[i]->p_level >= max_p_level) {
                     max_p_level = Cz[i]->p_level;
                     insertRow(ri, Cz[i]->id, Cz[i]->p_level, Cz[i]->trajectory, Cz[i]->trajectoryCount, Cz[i]->disease);
                 }
