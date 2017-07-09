@@ -80,18 +80,19 @@ void caculateFunc(database * originDB,treeNode * root, database *db){
 void main_thread(database * originDB,treeNode * root,database * db){
     int maxDepth;
     float PbThreshold;
-    printf("请输入最大泛化深度:");
+    printf("请输入最大泛化深度(整数1-3):");
     while(scanf("%d",&maxDepth) == 0 && maxDepth < 0 || maxDepth > treeHeight){
         printf("输入不合法，请输入%d-%d之间的数\n",0,treeHeight);
     }
 
-    printf("请设置泄露概率阈值：");
+    printf("请设置泄露概率阈值(浮点数0.0-1.0)：");
     scanf("%f",&PbThreshold);
     while(PbThreshold < 0 || PbThreshold > 1){
         printf("输入不合法，泄露概率在0-1之间\n");
         scanf("%f",&PbThreshold);
     }
 
+    printf("\n");
     int choice;
     trackSet * A;
     while(1){
