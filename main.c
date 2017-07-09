@@ -27,7 +27,7 @@ int inputChoice(){
     printf("请输入1-8选择相应的选项：");
     scanf("%d",&choice);
     if(choice > 8 || choice < 1){
-        printf("输入不合法\n");
+   ca     printf("输入不合法\n");
         return -1;
     }
     return choice;
@@ -43,7 +43,7 @@ void caculateFunc(database * originDB,treeNode * root, database *db){
 
         printf("请输入攻击序列个数：");
         scanf("%d", &t_count);
-        printf("请输入攻击序列：");
+        printf("请输入攻击序列(使用空格隔开，务必和输入的序列个数对应)：");
         track = (char **)malloc(sizeof(char *) * t_count);
         while(i < t_count){
             track[i] = (char *)malloc(sizeof(char) * 3);
@@ -61,6 +61,7 @@ void caculateFunc(database * originDB,treeNode * root, database *db){
         }
 
         printf("本行的泄露概率是: %-5.2f\n", caculateBreachProbability(originDB,db,root,row_id,row->tracks,row->count));
+        printf("\n");
         printf("回车进入下一次计算，输入任意字符退出\n");
 
         // 清空stdin
