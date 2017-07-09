@@ -27,7 +27,7 @@ int inputChoice(){
     printf("请输入1-8选择相应的选项：");
     scanf("%d",&choice);
     if(choice > 8 || choice < 1){
-   ca     printf("输入不合法\n");
+        printf("输入不合法\n");
         return -1;
     }
     return choice;
