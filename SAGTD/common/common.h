@@ -7,7 +7,6 @@
 #include <stdio.h>
 #include "../../Tree/tree.h"
 #include "../../Database/database.h"
-#define DB_FILE_PATH_4 "C:\\Users\\bian\\Desktop\\code\\PPTD\\config\\database4.txt"
 
 // 计算泄露概率
 float caculateBreachProbability(database * originDb, database * db,treeNode * root, int rowId, char ** background, int backgroundCount);

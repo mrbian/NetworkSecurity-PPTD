@@ -152,6 +152,7 @@ void main_thread(database * originDB,treeNode * root,database * db){
 
 int main()
 {
+    system("color f0");
 //    _main_test();
     // origin DB
     database * originDB = initDb();
