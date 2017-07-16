@@ -11,6 +11,9 @@ trackSet * getA1FromT(database * db){
     int i,j;
     struct trackRow * pt;
     for(i=0;i<row_count;i++){
+        if(db[i] == NULL)
+            continue;
+
         for(j=0;j<db[i]->trajectoryCount;j++){
             pt = initOneRow(charToPChar(db[i]->trajectory[j]),1);
             insertToSet(A1,pt);

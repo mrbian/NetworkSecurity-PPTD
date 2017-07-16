@@ -61,8 +61,24 @@ void generateBigDatabase(char * srcFilePath, char * destFilePath, int loopTimes)
     printf("generate over");
 }
 
+int SAGTDBreakFunc(database * Bj, database *Cj,  database * T, float PbThreshold, int maxDepth, trackRow * attack_row);
+
 void analysis_main(){
 //    generateBigDatabase(DB_FILE_PATH_3,BIG_DB_FILE_PATH,100);
 
+    database * originDB = initDb();
+    migrate(originDB,BIG_DB_FILE_PATH);     // originDB
 
+    // DB
+    database * db = initDb();
+    migrate(db,BIG_DB_FILE_PATH);
+
+    // tree
+    treeNode * root = migrateTree(CONFIG_PATH);
+
+    int maxDepth = 2;
+    float PbThreshold = 0.5;
+
+    db = SAGTD(originDB,db,root,maxDepth,PbThreshold,maxDepth,0,SAGTDBreakFunc);
+    traverseDb(db,printRow);
 }
