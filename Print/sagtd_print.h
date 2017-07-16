@@ -4,8 +4,8 @@
 
 #ifndef PPTD_SAGTD_PRINT_H
 #define PPTD_SAGTD_PRINT_H
-#include "SAGTD/SAGTD.h"
-#include "MPSTD/MPSTD.h"
+#include "../SAGTD/SAGTD.h"
+#include "../MPSTD/MPSTD.h"
 
 // SAGTDÖð²½´òÓ¡º¯Êý
 int SAGTDBreakFunc(database * Bj, database *Cj,  database * T, float PbThreshold, int maxDepth, trackRow * attack_row);

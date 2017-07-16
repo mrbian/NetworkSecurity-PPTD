@@ -37,6 +37,9 @@ database * getRowsByTrajectory(database * db, char * tr);
 // 根据Id排序db
 void sortDB(database * db);
 
+// 释放DB
+void freeDb(database * db);
+
 void _db_main();
 
 #endif //PPTD_DATABASE_H

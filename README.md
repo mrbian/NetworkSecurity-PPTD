@@ -14,3 +14,6 @@ This code base includes the code of five algorithms, they are SAGTD, STR, SAG, M
 ## todo
 - one malloc, one free!
 - less Loop, more efficient!
+
+## comments
+- 内存泄漏从一开始就要把控住！赋值使用memcpy

@@ -3,6 +3,7 @@
 //
 #include <mem.h>
 #include "queue.h"
+#include "../config/config.h"
 
 // 存储n个元素
 void initQueue(Queue * queue, int n, size_t t_size){
@@ -43,6 +44,12 @@ bool outQueue(Queue * queue, T * val){
     memcpy(val,&queue->queue[queue->front],sizeof(queue->dataSize));
     queue->front = (queue->front + 1) % queue->maxSize;
     return true;
+}
+
+void freeQueue(Queue * queue){
+    free(queue->queue);
+    free(queue);
+    queue = NULL;
 }
 
 T * getFront(Queue * queue){

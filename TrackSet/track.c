@@ -74,7 +74,7 @@ trackRow * joinTracks(trackRow * track1, trackRow * track2){
     if(count1 == 0 || count2 == 0 || (count1 != count2) || timediff == 0)
         return NULL;
 
-    trackRow * result = (trackRow *)malloc(sizeof(trackRow *));
+    trackRow * result = (trackRow *)malloc(sizeof(trackRow));
     result->tracks = (char **)malloc(sizeof(char *) * String_Max_Len * (track1->count));
     result->count = track1->count + 1;
 
@@ -101,6 +101,8 @@ trackRow * joinTracks(trackRow * track1, trackRow * track2){
         }
 
     }else{
+        free(result->tracks);   // 清空占用内存
+        free(result);
         result = NULL;      // 注意不成功一定设置成NULL
     }
 

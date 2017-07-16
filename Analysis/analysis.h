@@ -5,6 +5,7 @@
 #ifndef PPTD_ANALYSIS_H
 #define PPTD_ANALYSIS_H
 
+#include "malloc.h"
 #include "../config/config.h"
 #include "../SAGTD/SAGTD.h"
 #include "../MPSTD/MPSTD.h"

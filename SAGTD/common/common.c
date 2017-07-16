@@ -28,6 +28,11 @@ float _getProbabilityByNode(treeNode * root, treeNode * guardingNode, treeNode *
                 mem++;
         }
 
+        free(guardingNodeSets);
+        free(twinNodeSets);
+        guardingNodeSets = NULL;
+        twinNodeSets = NULL;
+
         result = (float) mem / (float) den;
         return ((float)((int)(result * 100))) / 100;
     }else{
@@ -42,22 +47,24 @@ float caculateBreachProbability(database * originDb, database * db,treeNode * ro
         return 0;
     }
     database * rowsMatched = matchRowByTrajectory(db,background,backgroundCount);   // 攻击者匹配到的行
-//    printf("matched %d\n",getLengthOfDB(rowsMatched));
     treeNode * guardingNode = getGuardingNodeByRow(originDb, root, rowId);   // ri的guard node
     treeNode * twinNode;        // rk 的twin node
 
     int i,count = 0;    // count 记录Tk行数
     float result = 0;
     for(i=0;i<row_count;i++){
-        if(rowsMatched[i] != NULL){
-            twinNode = getTwinNodeByRow(root,rowsMatched[i]);   // rk 的twin node
-//            printf("ri is r%d, rk is r%d,the p is %.2f\n",rowId,rowsMatched[i]->id,_getProbabilityByNode(root,guardingNode,twinNode));
-            result += _getProbabilityByNode(root,guardingNode,twinNode);
-            count ++;
-        }
+        if(rowsMatched[i] == NULL)
+            continue;
+
+        twinNode = getTwinNodeByRow(root,rowsMatched[i]);   // rk 的twin node
+        result += _getProbabilityByNode(root,guardingNode,twinNode);
+        count ++;
     }
     result = result  / (float)count;
     result = ((float)((int)(result * 100))) / 100;
+
+    freeDb(rowsMatched);
+    rowsMatched = NULL;
     return result;
 }
 
@@ -77,12 +84,23 @@ treeNode * getTwinNodeByRow(treeNode * root, row * row){
 }
 
 database * matchRowByTrajectory(database * db, char ** trCollection, int count){
-    int i = 0;
-    database * rowCollection = db;
+    if(count == 0){
+        return NULL;
+    }
 
+    int i;
+    database * rowCollection;
+    database * db_free_temp;
+
+    rowCollection = getRowsByTrajectory(db,trCollection[0]);
+    i = 1;
+    -- count;
     while(count --){
+        db_free_temp = rowCollection;
         rowCollection = getRowsByTrajectory(rowCollection,trCollection[i]);
-        i++;
+        freeDb(db_free_temp);
+
+        ++i;
     }
     return rowCollection;
 }

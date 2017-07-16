@@ -115,7 +115,6 @@ row* getRowById(database  * db, int id){
 
 database * getRowsByTrajectory(database * db, char * tr){
     int i,j;
-    int idx = 0;
     database * rowCollection = (database *)malloc(sizeof(row *) * row_count);
     for(i=0;i<row_count;i++){
         rowCollection[i] = NULL;
@@ -126,8 +125,7 @@ database * getRowsByTrajectory(database * db, char * tr){
             continue;
         for(j=0;j<db[i]->trajectoryCount;j++){
             if(strcmp(db[i]->trajectory[j],tr) == 0){
-                rowCollection[idx] = db[i];
-                idx ++;
+                insertRow(rowCollection,db[i]->id,db[i]->p_level,db[i]->trajectory,db[i]->trajectoryCount,db[i]->disease);
                 break;
             }
         }
@@ -154,6 +152,24 @@ void sortDB(database * db){
             }
         }
     }
+}
+
+void freeDb(database * db){
+    int i,j;
+    for(i=0;i<row_count;i++){
+        if(db[i] == NULL)
+            continue;
+
+        for(j=0;j<db[i]->trajectoryCount;j++){
+            free(db[i]->trajectory[j]);
+        }
+        free(db[i]->trajectory);
+        free(db[i]->disease);
+        free(db[i]);
+        db[i] = NULL;
+    }
+    free(db);
+    db = NULL;
 }
 
 void _db_main(){

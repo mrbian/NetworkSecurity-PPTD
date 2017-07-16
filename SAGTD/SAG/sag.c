@@ -40,7 +40,6 @@ database * DBSub(database * minuend, database * subtracted){
     return result;
 }
 
-// todo 内存泄漏
 database * DBUnion(database * db1, database *db2){
     database * result = initDb();
     int i;
@@ -70,6 +69,7 @@ database * sag(database * originDB, database * db, treeNode * root, trackRow * b
 //    traverseDb(Cj,printRow);
     database * Sj = initDb();
     database * Dj;
+    database * db_free_temp;        // 将不用空间free掉
     int i,j;
     float pb = 0;
     treeNode * twinNode, * guardingNode;
@@ -90,7 +90,6 @@ database * sag(database * originDB, database * db, treeNode * root, trackRow * b
             pb = caculateBreachProbability(originDB, db,root,Cj[i]->id,background->tracks,background->count);
             if( pb <= PbThreshold){
                 // 6
-                // todo 原内存未释放，内存泄漏
                 Dj = initDb();
                 for(j=0;j<row_count;j++){
                     if(Cj[j] == NULL)
@@ -102,8 +101,15 @@ database * sag(database * originDB, database * db, treeNode * root, trackRow * b
                 }
 
                 // 7 - 8
+                db_free_temp = Cj;
                 Cj = DBSub(Cj,Dj);
+                freeDb(db_free_temp);
+
+                db_free_temp = Sj;
                 Sj = DBUnion(Sj,Dj);
+                freeDb(db_free_temp);
+
+                freeDb(Dj);
             }
         }
     }
@@ -124,8 +130,16 @@ database * sag(database * originDB, database * db, treeNode * root, trackRow * b
 
                 temp = initDb();
                 insertRow(temp, Cj[i]->id, Cj[i]->p_level, Cj[i]->trajectory, Cj[i]->trajectoryCount, Cj[i]->disease);
+
+                db_free_temp = Cj;
                 Cj = DBSub(Cj, temp);
+                freeDb(db_free_temp);
+
+                db_free_temp = Sj;
                 Sj = DBUnion(Sj, temp);
+                freeDb(db_free_temp);
+
+                freeDb(temp);
 
             }
             // 17 -20
@@ -140,8 +154,15 @@ database * sag(database * originDB, database * db, treeNode * root, trackRow * b
                     }
                 }
 
+                db_free_temp = Cj;
                 Cj = DBSub(Cj,Dj);
+                freeDb(db_free_temp);
+
+                db_free_temp = Sj;
                 Sj = DBUnion(Sj,Dj);
+                freeDb(db_free_temp);
+
+                freeDb(Dj);
             }
             else {
                 // 22

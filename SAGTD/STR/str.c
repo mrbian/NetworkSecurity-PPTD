@@ -55,6 +55,7 @@ trackSet * str_main(database * db, int MaxSetNum){
                  * 如果两两之间可以联结并且攻击匹配到有相同的行
                  */
                 trackRow * joinResult = joinTracks(Atemp->trackCollection[j-1],Atemp->trackCollection[k-1]);
+                // todo matchRowBy.. memory
                 if( joinResult != NULL && (getLenOfintersectionOfRows(
                         matchRowByTrajectory(db,Atemp->trackCollection[j-1]->tracks,Atemp->trackCollection[j-1]->count),
                         matchRowByTrajectory(db,Atemp->trackCollection[k-1]->tracks,Atemp->trackCollection[k-1]->count)

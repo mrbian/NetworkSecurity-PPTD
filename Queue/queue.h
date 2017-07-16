@@ -30,6 +30,8 @@ bool isEmpty(Queue * queue);
 
 bool isFull(Queue * queue);
 
+void freeQueue(Queue * queue);
+
 T * getFront(Queue * queue);
 
 void traverseQueue(Queue * queue, void (*callback)(T));

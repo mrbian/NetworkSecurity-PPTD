@@ -12,7 +12,11 @@ database * SAGTD(database * originDB, database *db, treeNode* root, int MaxSetNu
     int i,j,k,l;
     int flag;   // 守护结点是否在最上层
     database  * matched, * Bj, * Cj, *Ts;
-    database  * CjCopy = initDb();
+    database * temp, *db_free_temp_1, *db_free_temp_2;
+    database  * CjCopy = initDb();      // 用于断点逐步打印
+    matched = initDb();
+    Bj = initDb();
+    Cj = initDb();
     trackRow * background;
     int c_len = 0;    // Cj 的长度
 
@@ -20,6 +24,11 @@ database * SAGTD(database * originDB, database *db, treeNode* root, int MaxSetNu
         background = AResult->trackCollection[i];
         flag = 1;
         c_len=0;
+
+        freeDb(Bj);
+        freeDb(Cj);
+        freeDb(matched);
+
         Bj = initDb();
         Cj = initDb();
         matched = matchRowByTrajectory(db,background->tracks,background->count);
@@ -75,13 +84,26 @@ database * SAGTD(database * originDB, database *db, treeNode* root, int MaxSetNu
 
         // 5-7
         if(getLengthOfDB(Cj) != 0){
-            CjCopy = initDb();
-            CjCopy = DBUnion(CjCopy,Cj);
+            if(breakFlag){
+                freeDb(CjCopy);
+                CjCopy = initDb();
+                CjCopy = DBUnion(CjCopy,Cj);
+            }
             // 6
 //            traverseDb(Cj,printRow);
-            database * temp = sag(originDB, db,root,background,Cj,maxDepth,PbThreshold);        // Cj 已变
+            temp = sag(originDB, db,root,background,Cj,maxDepth,PbThreshold);        // Cj 已变
 //            traverseDb(temp,printRow);
-            db = DBUnion(DBSub(db,Cj),temp);
+
+            db_free_temp_1 = db;
+            db = DBSub(db,Cj);
+
+            db_free_temp_2 = db;
+            db = DBUnion(db,temp);
+
+            freeDb(db_free_temp_1);
+            freeDb(db_free_temp_2);
+            freeDb(temp);
+            temp = NULL;
         }
 
         // 根据标识符判断是否打印步骤，用户可以随时退出

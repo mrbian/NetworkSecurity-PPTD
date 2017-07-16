@@ -5,7 +5,7 @@
 #define PPTD_TREE_H
 #include <stdbool.h>
 #include "stdio.h"
-#include "../LinkedList/LinkedList.h"
+#include <malloc.h>
 #include "../config/config.h"
 
 typedef struct treeNode{

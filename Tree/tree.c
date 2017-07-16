@@ -60,6 +60,7 @@ treeNode * getNodeById(treeNode * root, int id){
                 enQueue(queue,pt->childLists[i]);
         }
     }
+    freeQueue(queue);
     return NULL;
 }
 
@@ -72,13 +73,16 @@ treeNode * getNodeByText(treeNode *root, char *text){
     int i = 0;
     while(! isEmpty(queue)){
         outQueue(queue, &pt);
-        if(strcmp(pt->text,text) == 0)
+        if(strcmp(pt->text,text) == 0){
+            freeQueue(queue);
             return pt;
+        }
         for(i = 0; i < childListsLength; i++){
             if(pt->childLists[i] != NULL)
                 enQueue(queue,pt->childLists[i]);
         }
     }
+    freeQueue(queue);
     return NULL;
 }
 
@@ -119,6 +123,7 @@ void traverseTree(treeNode * root, void (*pfunc)(treeNode *)){
                 enQueue(queue,pt->childLists[i]);
         }
     }
+    freeQueue(queue);
 }
 
 int getNodeHeight(treeNode * root, treeNode * node){
@@ -186,6 +191,7 @@ treeNode ** getSubsetsOfNode(treeNode * node){
             count ++;
         }
     }
+    freeQueue(queue);
     return nodesCollection;
 }
 
@@ -214,6 +220,7 @@ int getSubsetsLengthOfNode(treeNode * node){
         if(flag)
             count ++;
     }
+    freeQueue(queue);
     return count;
 }
 
@@ -231,6 +238,11 @@ bool nodeAisCoveredByNodeB(treeNode * root, treeNode * A, treeNode * B){
             break;
         }
     }
+
+    // free collection 注意不能删除 nodesCollection[i]
+    free(nodesCollection);
+    nodesCollection = NULL;
+
     return flag;
 }
 
