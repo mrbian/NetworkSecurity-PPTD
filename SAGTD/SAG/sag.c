@@ -176,5 +176,7 @@ database * sag(database * originDB, database * db, treeNode * root, trackRow * b
         }
     }
 
+//    traverseDb(Cj,printRow);
+
     return Sj;
 }
