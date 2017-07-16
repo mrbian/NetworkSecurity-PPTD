@@ -8,6 +8,8 @@
 #include "MPSTD/MPSTD.h"
 #include "sagtd_print.h"
 #include "mpstd_print.h"
+#include "config/config.h"
+#include "Analysis/analysis.h"
 
 //#define δ 2
 //#define σ 0.5
@@ -152,41 +154,19 @@ void main_thread(database * originDB,treeNode * root,database * db){
 
 int main()
 {
-    system("color f0");
-//    _main_test();
-    // origin DB
-    database * originDB = initDb();
-    migrate(originDB,DB_FILE_PATH_3);     // originDB
+    analysis_main();
 
-    // DB
-    database * db = initDb();
-    migrate(db,DB_FILE_PATH_3);
-
-    // tree
-    treeNode * root = migrateTree(CONFIG_PATH);
-
-    main_thread(originDB,root,db);
-
-    // 直接结果
-//    int maxDepth = 2;
-//    float Pb = 0.5;
-//    // STR
-//    trackSet * A = str_main(originDB,maxDepth);
+//    system("color f0");
+//    database * originDB = initDb();
+//    migrate(originDB,DB_FILE_PATH_3);     // originDB
 //
-//    // SAGTD
-//    database * Ts = SAGTD(originDB,root, maxDepth ,Pb, maxDepth);
-//    sortDB(Ts);
-//    printf("After SAGTD the result is \n");
-//    traverseDb(Ts,printRow);
-//    printf("\n");
+//    // DB
+//    database * db = initDb();
+//    migrate(db,DB_FILE_PATH_3);
 //
+//    // tree
+//    treeNode * root = migrateTree(CONFIG_PATH);
 //
-//    // MPSTD
-//    database * Tg = mpstd(originDB,root,Ts,A,Pb, maxDepth);
-//    sortDB(Tg);
-//    printf("After MPSTD the result is \n");
-//    traverseDb(Tg,printRow);
-//    printf("\n");
-
-    return 0;
+//    main_thread(originDB,root,db);
+//    return 0;
 }

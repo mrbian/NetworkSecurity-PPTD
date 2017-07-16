@@ -1,7 +1,0 @@
-1,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
-2,1,c4,f6,a7,e9 Pulmonary Disease
-3,0,d3,c4,a7 Pancreatitis
-4,2,b2,f6,a7,e8 Any Illness
-5,1,d5,f6,e9 Pulmonary Disease
-6,0,c4,d5,f6 High Blood Sugar
-7,-1,b2,f6,e9 Cold

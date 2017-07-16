@@ -145,9 +145,6 @@ void _common_main(database * originDB){
     database * db = initDb();   // 初始化
     migrate(db,DB_FILE_PATH_3);    // 赋值
 
-    database * db2 = initDb();
-    migrate(db2,DB_FILE_PATH_4);
-
     treeNode * root = migrateTree(CONFIG_PATH);
 
 //    treeNode * A = getNodeByText(root,"Infectious Disease");
@@ -158,9 +155,6 @@ void _common_main(database * originDB){
     int r = 2;
     float result = caculateBreachProbability(originDB, db,root,r,background, sizeof(background) / sizeof(background[0]));
     printf("Before Pb'sresult is %.2f\n",result);
-
-    float result2 = caculateBreachProbability(originDB, db2,root,r,background, sizeof(background) / sizeof(background[0]));
-    printf("After Pb'sresult is %.2f\n",result2);
 
 //    char* background[2] = {"b2","e8"};
 //    database * rowCollection = matchRowByTrajectory(db,background,sizeof(background) / (sizeof(background[0])));

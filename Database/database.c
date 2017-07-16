@@ -21,10 +21,10 @@ bool insertRow(database * db, int id,int p_level, char** trajectory,int count, c
     db[curPos]->trajectory = (char **)malloc(sizeof(char *) * trajectory_item_num);
 
     // 行内存不连续
-    //    memcpy(db[curPos]->trajectory,trajectory,sizeof(char) * trajectory_item_num * 100);  // 注意&t_num + 1
     for(i=0;i<count;i++){
-        db[curPos]->trajectory[i] = trajectory[i];
-        db[curPos]->trajectoryCount ++;
+        db[curPos]->trajectory[i] = (char *)malloc(sizeof(char) * movePointLen);
+        memcpy(db[curPos]->trajectory[i],trajectory[i],sizeof(char) * movePointLen);  // 注意&t_num + 1
+        db[curPos]->trajectoryCount++;
     }
     return true;
 }
@@ -39,7 +39,7 @@ database * initDb(){
 }
 
 void migrate(database * db,char * filePath){
-    int i = 0;
+    int i = 0,j;
     int id;
     int p_level;
     char * trajectory_str = (char *)malloc(sizeof(char) * 100);
@@ -64,6 +64,17 @@ void migrate(database * db,char * filePath){
         }
 
         insertRow(db,id,p_level,trajectories,i,disease_str);
+        for(j=0;j<i;j++){
+            free(trajectories[j]);
+            trajectories[j] = NULL;
+        }
+        free(trajectory_str);
+        trajectory_str = NULL;
+        free(disease_str);
+        disease_str = NULL;
+        free(trajectories);
+        trajectories = NULL;
+
 
         // 所有都要重新分配
         trajectory_str = (char *)malloc(sizeof(char) * 100);
