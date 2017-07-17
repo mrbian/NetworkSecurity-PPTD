@@ -1,0 +1,1400 @@
+1,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+4,2,f6,a7 Any Illness
+2,1,c4,f6,a7,e9 Pulmonary Disease
+11,2,f6,a7 Any Illness
+3,0,d3,c4,a7 Pancreatitis
+18,2,f6,a7 Any Illness
+5,1,d5,f6,e9 Pulmonary Disease
+25,2,f6,a7 Any Illness
+6,0,c4,d5,f6 High Blood Sugar
+32,2,f6,a7 Any Illness
+7,-1,b2,f6,e9 Cold
+39,2,f6,a7 Any Illness
+8,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+46,2,f6,a7 Any Illness
+9,1,c4,f6,a7,e9 Pulmonary Disease
+53,2,f6,a7 Any Illness
+10,0,d3,c4,a7 Pancreatitis
+60,2,f6,a7 Any Illness
+12,1,d5,f6,e9 Pulmonary Disease
+67,2,f6,a7 Any Illness
+13,0,c4,d5,f6 High Blood Sugar
+74,2,f6,a7 Any Illness
+14,-1,b2,f6,e9 Cold
+81,2,f6,a7 Any Illness
+15,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+88,2,f6,a7 Any Illness
+16,1,c4,f6,a7,e9 Pulmonary Disease
+95,2,f6,a7 Any Illness
+17,0,d3,c4,a7 Pancreatitis
+102,2,f6,a7 Any Illness
+19,1,d5,f6,e9 Pulmonary Disease
+109,2,f6,a7 Any Illness
+20,0,c4,d5,f6 High Blood Sugar
+116,2,f6,a7 Any Illness
+21,-1,b2,f6,e9 Cold
+123,2,f6,a7 Any Illness
+22,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+130,2,f6,a7 Any Illness
+23,1,c4,f6,a7,e9 Pulmonary Disease
+137,2,f6,a7 Any Illness
+24,0,d3,c4,a7 Pancreatitis
+144,2,f6,a7 Any Illness
+26,1,d5,f6,e9 Pulmonary Disease
+151,2,f6,a7 Any Illness
+27,0,c4,d5,f6 High Blood Sugar
+158,2,f6,a7 Any Illness
+28,-1,b2,f6,e9 Cold
+165,2,f6,a7 Any Illness
+29,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+172,2,f6,a7 Any Illness
+30,1,c4,f6,a7,e9 Pulmonary Disease
+179,2,f6,a7 Any Illness
+31,0,d3,c4,a7 Pancreatitis
+186,2,f6,a7 Any Illness
+33,1,d5,f6,e9 Pulmonary Disease
+193,2,f6,a7 Any Illness
+34,0,c4,d5,f6 High Blood Sugar
+200,2,f6,a7 Any Illness
+35,-1,b2,f6,e9 Cold
+207,2,f6,a7 Any Illness
+36,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+214,2,f6,a7 Any Illness
+37,1,c4,f6,a7,e9 Pulmonary Disease
+221,2,f6,a7 Any Illness
+38,0,d3,c4,a7 Pancreatitis
+228,2,f6,a7 Any Illness
+40,1,d5,f6,e9 Pulmonary Disease
+235,2,f6,a7 Any Illness
+41,0,c4,d5,f6 High Blood Sugar
+242,2,f6,a7 Any Illness
+42,-1,b2,f6,e9 Cold
+249,2,f6,a7 Any Illness
+43,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+256,2,f6,a7 Any Illness
+44,1,c4,f6,a7,e9 Pulmonary Disease
+263,2,f6,a7 Any Illness
+45,0,d3,c4,a7 Pancreatitis
+270,2,f6,a7 Any Illness
+47,1,d5,f6,e9 Pulmonary Disease
+277,2,f6,a7 Any Illness
+48,0,c4,d5,f6 High Blood Sugar
+284,2,f6,a7 Any Illness
+49,-1,b2,f6,e9 Cold
+291,2,f6,a7 Any Illness
+50,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+298,2,f6,a7 Any Illness
+51,1,c4,f6,a7,e9 Pulmonary Disease
+305,2,f6,a7 Any Illness
+52,0,d3,c4,a7 Pancreatitis
+312,2,f6,a7 Any Illness
+54,1,d5,f6,e9 Pulmonary Disease
+319,2,f6,a7 Any Illness
+55,0,c4,d5,f6 High Blood Sugar
+326,2,f6,a7 Any Illness
+56,-1,b2,f6,e9 Cold
+333,2,f6,a7 Any Illness
+57,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+340,2,f6,a7 Any Illness
+58,1,c4,f6,a7,e9 Pulmonary Disease
+347,2,f6,a7 Any Illness
+59,0,d3,c4,a7 Pancreatitis
+354,2,f6,a7 Any Illness
+61,1,d5,f6,e9 Pulmonary Disease
+361,2,f6,a7 Any Illness
+62,0,c4,d5,f6 High Blood Sugar
+368,2,f6,a7 Any Illness
+63,-1,b2,f6,e9 Cold
+375,2,f6,a7 Any Illness
+64,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+382,2,f6,a7 Any Illness
+65,1,c4,f6,a7,e9 Pulmonary Disease
+389,2,f6,a7 Any Illness
+66,0,d3,c4,a7 Pancreatitis
+396,2,f6,a7 Any Illness
+68,1,d5,f6,e9 Pulmonary Disease
+403,2,f6,a7 Any Illness
+69,0,c4,d5,f6 High Blood Sugar
+410,2,f6,a7 Any Illness
+70,-1,b2,f6,e9 Cold
+417,2,f6,a7 Any Illness
+71,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+424,2,f6,a7 Any Illness
+72,1,c4,f6,a7,e9 Pulmonary Disease
+431,2,f6,a7 Any Illness
+73,0,d3,c4,a7 Pancreatitis
+438,2,f6,a7 Any Illness
+75,1,d5,f6,e9 Pulmonary Disease
+445,2,f6,a7 Any Illness
+76,0,c4,d5,f6 High Blood Sugar
+452,2,f6,a7 Any Illness
+77,-1,b2,f6,e9 Cold
+459,2,f6,a7 Any Illness
+78,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+466,2,f6,a7 Any Illness
+79,1,c4,f6,a7,e9 Pulmonary Disease
+473,2,f6,a7 Any Illness
+80,0,d3,c4,a7 Pancreatitis
+480,2,f6,a7 Any Illness
+82,1,d5,f6,e9 Pulmonary Disease
+487,2,f6,a7 Any Illness
+83,0,c4,d5,f6 High Blood Sugar
+494,2,f6,a7 Any Illness
+84,-1,b2,f6,e9 Cold
+501,2,f6,a7 Any Illness
+85,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+508,2,f6,a7 Any Illness
+86,1,c4,f6,a7,e9 Pulmonary Disease
+515,2,f6,a7 Any Illness
+87,0,d3,c4,a7 Pancreatitis
+522,2,f6,a7 Any Illness
+89,1,d5,f6,e9 Pulmonary Disease
+529,2,f6,a7 Any Illness
+90,0,c4,d5,f6 High Blood Sugar
+536,2,f6,a7 Any Illness
+91,-1,b2,f6,e9 Cold
+543,2,f6,a7 Any Illness
+92,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+550,2,f6,a7 Any Illness
+93,1,c4,f6,a7,e9 Pulmonary Disease
+557,2,f6,a7 Any Illness
+94,0,d3,c4,a7 Pancreatitis
+564,2,f6,a7 Any Illness
+96,1,d5,f6,e9 Pulmonary Disease
+571,2,f6,a7 Any Illness
+97,0,c4,d5,f6 High Blood Sugar
+578,2,f6,a7 Any Illness
+98,-1,b2,f6,e9 Cold
+585,2,f6,a7 Any Illness
+99,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+592,2,f6,a7 Any Illness
+100,1,c4,f6,a7,e9 Pulmonary Disease
+599,2,f6,a7 Any Illness
+101,0,d3,c4,a7 Pancreatitis
+606,2,f6,a7 Any Illness
+103,1,d5,f6,e9 Pulmonary Disease
+613,2,f6,a7 Any Illness
+104,0,c4,d5,f6 High Blood Sugar
+620,2,f6,a7 Any Illness
+105,-1,b2,f6,e9 Cold
+627,2,f6,a7 Any Illness
+106,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+634,2,f6,a7 Any Illness
+107,1,c4,f6,a7,e9 Pulmonary Disease
+641,2,f6,a7 Any Illness
+108,0,d3,c4,a7 Pancreatitis
+648,2,f6,a7 Any Illness
+110,1,d5,f6,e9 Pulmonary Disease
+655,2,f6,a7 Any Illness
+111,0,c4,d5,f6 High Blood Sugar
+662,2,f6,a7 Any Illness
+112,-1,b2,f6,e9 Cold
+669,2,f6,a7 Any Illness
+113,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+676,2,f6,a7 Any Illness
+114,1,c4,f6,a7,e9 Pulmonary Disease
+683,2,f6,a7 Any Illness
+115,0,d3,c4,a7 Pancreatitis
+690,2,f6,a7 Any Illness
+117,1,d5,f6,e9 Pulmonary Disease
+697,2,f6,a7 Any Illness
+118,0,c4,d5,f6 High Blood Sugar
+704,2,f6,a7 Any Illness
+119,-1,b2,f6,e9 Cold
+711,2,f6,a7 Any Illness
+120,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+718,2,f6,a7 Any Illness
+121,1,c4,f6,a7,e9 Pulmonary Disease
+725,2,f6,a7 Any Illness
+122,0,d3,c4,a7 Pancreatitis
+732,2,f6,a7 Any Illness
+124,1,d5,f6,e9 Pulmonary Disease
+739,2,f6,a7 Any Illness
+125,0,c4,d5,f6 High Blood Sugar
+746,2,f6,a7 Any Illness
+126,-1,b2,f6,e9 Cold
+753,2,f6,a7 Any Illness
+127,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+760,2,f6,a7 Any Illness
+128,1,c4,f6,a7,e9 Pulmonary Disease
+767,2,f6,a7 Any Illness
+129,0,d3,c4,a7 Pancreatitis
+774,2,f6,a7 Any Illness
+131,1,d5,f6,e9 Pulmonary Disease
+781,2,f6,a7 Any Illness
+132,0,c4,d5,f6 High Blood Sugar
+788,2,f6,a7 Any Illness
+133,-1,b2,f6,e9 Cold
+795,2,f6,a7 Any Illness
+134,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+802,2,f6,a7 Any Illness
+135,1,c4,f6,a7,e9 Pulmonary Disease
+809,2,f6,a7 Any Illness
+136,0,d3,c4,a7 Pancreatitis
+816,2,f6,a7 Any Illness
+138,1,d5,f6,e9 Pulmonary Disease
+823,2,f6,a7 Any Illness
+139,0,c4,d5,f6 High Blood Sugar
+830,2,f6,a7 Any Illness
+140,-1,b2,f6,e9 Cold
+837,2,f6,a7 Any Illness
+141,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+844,2,f6,a7 Any Illness
+142,1,c4,f6,a7,e9 Pulmonary Disease
+851,2,f6,a7 Any Illness
+143,0,d3,c4,a7 Pancreatitis
+858,2,f6,a7 Any Illness
+145,1,d5,f6,e9 Pulmonary Disease
+865,2,f6,a7 Any Illness
+146,0,c4,d5,f6 High Blood Sugar
+872,2,f6,a7 Any Illness
+147,-1,b2,f6,e9 Cold
+879,2,f6,a7 Any Illness
+148,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+886,2,f6,a7 Any Illness
+149,1,c4,f6,a7,e9 Pulmonary Disease
+893,2,f6,a7 Any Illness
+150,0,d3,c4,a7 Pancreatitis
+900,2,f6,a7 Any Illness
+152,1,d5,f6,e9 Pulmonary Disease
+907,2,f6,a7 Any Illness
+153,0,c4,d5,f6 High Blood Sugar
+914,2,f6,a7 Any Illness
+154,-1,b2,f6,e9 Cold
+921,2,f6,a7 Any Illness
+155,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+928,2,f6,a7 Any Illness
+156,1,c4,f6,a7,e9 Pulmonary Disease
+935,2,f6,a7 Any Illness
+157,0,d3,c4,a7 Pancreatitis
+942,2,f6,a7 Any Illness
+159,1,d5,f6,e9 Pulmonary Disease
+949,2,f6,a7 Any Illness
+160,0,c4,d5,f6 High Blood Sugar
+956,2,f6,a7 Any Illness
+161,-1,b2,f6,e9 Cold
+963,2,f6,a7 Any Illness
+162,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+970,2,f6,a7 Any Illness
+163,1,c4,f6,a7,e9 Pulmonary Disease
+977,2,f6,a7 Any Illness
+164,0,d3,c4,a7 Pancreatitis
+984,2,f6,a7 Any Illness
+166,1,d5,f6,e9 Pulmonary Disease
+991,2,f6,a7 Any Illness
+167,0,c4,d5,f6 High Blood Sugar
+998,2,f6,a7 Any Illness
+168,-1,b2,f6,e9 Cold
+1005,2,f6,a7 Any Illness
+169,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+1012,2,f6,a7 Any Illness
+170,1,c4,f6,a7,e9 Pulmonary Disease
+1019,2,f6,a7 Any Illness
+171,0,d3,c4,a7 Pancreatitis
+1026,2,f6,a7 Any Illness
+173,1,d5,f6,e9 Pulmonary Disease
+1033,2,f6,a7 Any Illness
+174,0,c4,d5,f6 High Blood Sugar
+1040,2,f6,a7 Any Illness
+175,-1,b2,f6,e9 Cold
+1047,2,f6,a7 Any Illness
+176,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+1054,2,f6,a7 Any Illness
+177,1,c4,f6,a7,e9 Pulmonary Disease
+1061,2,f6,a7 Any Illness
+178,0,d3,c4,a7 Pancreatitis
+1068,2,f6,a7 Any Illness
+180,1,d5,f6,e9 Pulmonary Disease
+1075,2,f6,a7 Any Illness
+181,0,c4,d5,f6 High Blood Sugar
+1082,2,f6,a7 Any Illness
+182,-1,b2,f6,e9 Cold
+1089,2,f6,a7 Any Illness
+183,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+1096,2,f6,a7 Any Illness
+184,1,c4,f6,a7,e9 Pulmonary Disease
+1103,2,f6,a7 Any Illness
+185,0,d3,c4,a7 Pancreatitis
+1110,2,f6,a7 Any Illness
+187,1,d5,f6,e9 Pulmonary Disease
+1117,2,f6,a7 Any Illness
+188,0,c4,d5,f6 High Blood Sugar
+1124,2,f6,a7 Any Illness
+189,-1,b2,f6,e9 Cold
+1131,2,f6,a7 Any Illness
+190,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+1138,2,f6,a7 Any Illness
+191,1,c4,f6,a7,e9 Pulmonary Disease
+1145,2,f6,a7 Any Illness
+192,0,d3,c4,a7 Pancreatitis
+1152,2,f6,a7 Any Illness
+194,1,d5,f6,e9 Pulmonary Disease
+1159,2,f6,a7 Any Illness
+195,0,c4,d5,f6 High Blood Sugar
+1166,2,f6,a7 Any Illness
+196,-1,b2,f6,e9 Cold
+1173,2,f6,a7 Any Illness
+197,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+1180,2,f6,a7 Any Illness
+198,1,c4,f6,a7,e9 Pulmonary Disease
+1187,2,f6,a7 Any Illness
+199,0,d3,c4,a7 Pancreatitis
+1194,2,f6,a7 Any Illness
+201,1,d5,f6,e9 Pulmonary Disease
+1201,2,f6,a7 Any Illness
+202,0,c4,d5,f6 High Blood Sugar
+1208,2,f6,a7 Any Illness
+203,-1,b2,f6,e9 Cold
+1215,2,f6,a7 Any Illness
+204,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+1222,2,f6,a7 Any Illness
+205,1,c4,f6,a7,e9 Pulmonary Disease
+1229,2,f6,a7 Any Illness
+206,0,d3,c4,a7 Pancreatitis
+1236,2,f6,a7 Any Illness
+208,1,d5,f6,e9 Pulmonary Disease
+1243,2,f6,a7 Any Illness
+209,0,c4,d5,f6 High Blood Sugar
+1250,2,f6,a7 Any Illness
+210,-1,b2,f6,e9 Cold
+1257,2,f6,a7 Any Illness
+211,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+1264,2,f6,a7 Any Illness
+212,1,c4,f6,a7,e9 Pulmonary Disease
+1271,2,f6,a7 Any Illness
+213,0,d3,c4,a7 Pancreatitis
+1278,2,f6,a7 Any Illness
+215,1,d5,f6,e9 Pulmonary Disease
+1285,2,f6,a7 Any Illness
+216,0,c4,d5,f6 High Blood Sugar
+1292,2,f6,a7 Any Illness
+217,-1,b2,f6,e9 Cold
+1299,2,f6,a7 Any Illness
+218,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+1306,2,f6,a7 Any Illness
+219,1,c4,f6,a7,e9 Pulmonary Disease
+1313,2,f6,a7 Any Illness
+220,0,d3,c4,a7 Pancreatitis
+1320,2,f6,a7 Any Illness
+222,1,d5,f6,e9 Pulmonary Disease
+1327,2,f6,a7 Any Illness
+223,0,c4,d5,f6 High Blood Sugar
+1334,2,f6,a7 Any Illness
+224,-1,b2,f6,e9 Cold
+1341,2,f6,a7 Any Illness
+225,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+1348,2,f6,a7 Any Illness
+226,1,c4,f6,a7,e9 Pulmonary Disease
+1355,2,f6,a7 Any Illness
+227,0,d3,c4,a7 Pancreatitis
+1362,2,f6,a7 Any Illness
+229,1,d5,f6,e9 Pulmonary Disease
+1369,2,f6,a7 Any Illness
+230,0,c4,d5,f6 High Blood Sugar
+1376,2,f6,a7 Any Illness
+231,-1,b2,f6,e9 Cold
+1383,2,f6,a7 Any Illness
+232,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+1390,2,f6,a7 Any Illness
+233,1,c4,f6,a7,e9 Pulmonary Disease
+1397,2,f6,a7 Any Illness
+234,0,d3,c4,a7 Pancreatitis
+236,1,d5,f6,e9 Pulmonary Disease
+237,0,c4,d5,f6 High Blood Sugar
+238,-1,b2,f6,e9 Cold
+239,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+240,1,c4,f6,a7,e9 Pulmonary Disease
+241,0,d3,c4,a7 Pancreatitis
+243,1,d5,f6,e9 Pulmonary Disease
+244,0,c4,d5,f6 High Blood Sugar
+245,-1,b2,f6,e9 Cold
+246,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+247,1,c4,f6,a7,e9 Pulmonary Disease
+248,0,d3,c4,a7 Pancreatitis
+250,1,d5,f6,e9 Pulmonary Disease
+251,0,c4,d5,f6 High Blood Sugar
+252,-1,b2,f6,e9 Cold
+253,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+254,1,c4,f6,a7,e9 Pulmonary Disease
+255,0,d3,c4,a7 Pancreatitis
+257,1,d5,f6,e9 Pulmonary Disease
+258,0,c4,d5,f6 High Blood Sugar
+259,-1,b2,f6,e9 Cold
+260,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+261,1,c4,f6,a7,e9 Pulmonary Disease
+262,0,d3,c4,a7 Pancreatitis
+264,1,d5,f6,e9 Pulmonary Disease
+265,0,c4,d5,f6 High Blood Sugar
+266,-1,b2,f6,e9 Cold
+267,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+268,1,c4,f6,a7,e9 Pulmonary Disease
+269,0,d3,c4,a7 Pancreatitis
+271,1,d5,f6,e9 Pulmonary Disease
+272,0,c4,d5,f6 High Blood Sugar
+273,-1,b2,f6,e9 Cold
+274,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+275,1,c4,f6,a7,e9 Pulmonary Disease
+276,0,d3,c4,a7 Pancreatitis
+278,1,d5,f6,e9 Pulmonary Disease
+279,0,c4,d5,f6 High Blood Sugar
+280,-1,b2,f6,e9 Cold
+281,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+282,1,c4,f6,a7,e9 Pulmonary Disease
+283,0,d3,c4,a7 Pancreatitis
+285,1,d5,f6,e9 Pulmonary Disease
+286,0,c4,d5,f6 High Blood Sugar
+287,-1,b2,f6,e9 Cold
+288,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+289,1,c4,f6,a7,e9 Pulmonary Disease
+290,0,d3,c4,a7 Pancreatitis
+292,1,d5,f6,e9 Pulmonary Disease
+293,0,c4,d5,f6 High Blood Sugar
+294,-1,b2,f6,e9 Cold
+295,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+296,1,c4,f6,a7,e9 Pulmonary Disease
+297,0,d3,c4,a7 Pancreatitis
+299,1,d5,f6,e9 Pulmonary Disease
+300,0,c4,d5,f6 High Blood Sugar
+301,-1,b2,f6,e9 Cold
+302,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+303,1,c4,f6,a7,e9 Pulmonary Disease
+304,0,d3,c4,a7 Pancreatitis
+306,1,d5,f6,e9 Pulmonary Disease
+307,0,c4,d5,f6 High Blood Sugar
+308,-1,b2,f6,e9 Cold
+309,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+310,1,c4,f6,a7,e9 Pulmonary Disease
+311,0,d3,c4,a7 Pancreatitis
+313,1,d5,f6,e9 Pulmonary Disease
+314,0,c4,d5,f6 High Blood Sugar
+315,-1,b2,f6,e9 Cold
+316,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+317,1,c4,f6,a7,e9 Pulmonary Disease
+318,0,d3,c4,a7 Pancreatitis
+320,1,d5,f6,e9 Pulmonary Disease
+321,0,c4,d5,f6 High Blood Sugar
+322,-1,b2,f6,e9 Cold
+323,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+324,1,c4,f6,a7,e9 Pulmonary Disease
+325,0,d3,c4,a7 Pancreatitis
+327,1,d5,f6,e9 Pulmonary Disease
+328,0,c4,d5,f6 High Blood Sugar
+329,-1,b2,f6,e9 Cold
+330,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+331,1,c4,f6,a7,e9 Pulmonary Disease
+332,0,d3,c4,a7 Pancreatitis
+334,1,d5,f6,e9 Pulmonary Disease
+335,0,c4,d5,f6 High Blood Sugar
+336,-1,b2,f6,e9 Cold
+337,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+338,1,c4,f6,a7,e9 Pulmonary Disease
+339,0,d3,c4,a7 Pancreatitis
+341,1,d5,f6,e9 Pulmonary Disease
+342,0,c4,d5,f6 High Blood Sugar
+343,-1,b2,f6,e9 Cold
+344,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+345,1,c4,f6,a7,e9 Pulmonary Disease
+346,0,d3,c4,a7 Pancreatitis
+348,1,d5,f6,e9 Pulmonary Disease
+349,0,c4,d5,f6 High Blood Sugar
+350,-1,b2,f6,e9 Cold
+351,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+352,1,c4,f6,a7,e9 Pulmonary Disease
+353,0,d3,c4,a7 Pancreatitis
+355,1,d5,f6,e9 Pulmonary Disease
+356,0,c4,d5,f6 High Blood Sugar
+357,-1,b2,f6,e9 Cold
+358,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+359,1,c4,f6,a7,e9 Pulmonary Disease
+360,0,d3,c4,a7 Pancreatitis
+362,1,d5,f6,e9 Pulmonary Disease
+363,0,c4,d5,f6 High Blood Sugar
+364,-1,b2,f6,e9 Cold
+365,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+366,1,c4,f6,a7,e9 Pulmonary Disease
+367,0,d3,c4,a7 Pancreatitis
+369,1,d5,f6,e9 Pulmonary Disease
+370,0,c4,d5,f6 High Blood Sugar
+371,-1,b2,f6,e9 Cold
+372,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+373,1,c4,f6,a7,e9 Pulmonary Disease
+374,0,d3,c4,a7 Pancreatitis
+376,1,d5,f6,e9 Pulmonary Disease
+377,0,c4,d5,f6 High Blood Sugar
+378,-1,b2,f6,e9 Cold
+379,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+380,1,c4,f6,a7,e9 Pulmonary Disease
+381,0,d3,c4,a7 Pancreatitis
+383,1,d5,f6,e9 Pulmonary Disease
+384,0,c4,d5,f6 High Blood Sugar
+385,-1,b2,f6,e9 Cold
+386,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+387,1,c4,f6,a7,e9 Pulmonary Disease
+388,0,d3,c4,a7 Pancreatitis
+390,1,d5,f6,e9 Pulmonary Disease
+391,0,c4,d5,f6 High Blood Sugar
+392,-1,b2,f6,e9 Cold
+393,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+394,1,c4,f6,a7,e9 Pulmonary Disease
+395,0,d3,c4,a7 Pancreatitis
+397,1,d5,f6,e9 Pulmonary Disease
+398,0,c4,d5,f6 High Blood Sugar
+399,-1,b2,f6,e9 Cold
+400,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+401,1,c4,f6,a7,e9 Pulmonary Disease
+402,0,d3,c4,a7 Pancreatitis
+404,1,d5,f6,e9 Pulmonary Disease
+405,0,c4,d5,f6 High Blood Sugar
+406,-1,b2,f6,e9 Cold
+407,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+408,1,c4,f6,a7,e9 Pulmonary Disease
+409,0,d3,c4,a7 Pancreatitis
+411,1,d5,f6,e9 Pulmonary Disease
+412,0,c4,d5,f6 High Blood Sugar
+413,-1,b2,f6,e9 Cold
+414,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+415,1,c4,f6,a7,e9 Pulmonary Disease
+416,0,d3,c4,a7 Pancreatitis
+418,1,d5,f6,e9 Pulmonary Disease
+419,0,c4,d5,f6 High Blood Sugar
+420,-1,b2,f6,e9 Cold
+421,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+422,1,c4,f6,a7,e9 Pulmonary Disease
+423,0,d3,c4,a7 Pancreatitis
+425,1,d5,f6,e9 Pulmonary Disease
+426,0,c4,d5,f6 High Blood Sugar
+427,-1,b2,f6,e9 Cold
+428,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+429,1,c4,f6,a7,e9 Pulmonary Disease
+430,0,d3,c4,a7 Pancreatitis
+432,1,d5,f6,e9 Pulmonary Disease
+433,0,c4,d5,f6 High Blood Sugar
+434,-1,b2,f6,e9 Cold
+435,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+436,1,c4,f6,a7,e9 Pulmonary Disease
+437,0,d3,c4,a7 Pancreatitis
+439,1,d5,f6,e9 Pulmonary Disease
+440,0,c4,d5,f6 High Blood Sugar
+441,-1,b2,f6,e9 Cold
+442,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+443,1,c4,f6,a7,e9 Pulmonary Disease
+444,0,d3,c4,a7 Pancreatitis
+446,1,d5,f6,e9 Pulmonary Disease
+447,0,c4,d5,f6 High Blood Sugar
+448,-1,b2,f6,e9 Cold
+449,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+450,1,c4,f6,a7,e9 Pulmonary Disease
+451,0,d3,c4,a7 Pancreatitis
+453,1,d5,f6,e9 Pulmonary Disease
+454,0,c4,d5,f6 High Blood Sugar
+455,-1,b2,f6,e9 Cold
+456,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+457,1,c4,f6,a7,e9 Pulmonary Disease
+458,0,d3,c4,a7 Pancreatitis
+460,1,d5,f6,e9 Pulmonary Disease
+461,0,c4,d5,f6 High Blood Sugar
+462,-1,b2,f6,e9 Cold
+463,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+464,1,c4,f6,a7,e9 Pulmonary Disease
+465,0,d3,c4,a7 Pancreatitis
+467,1,d5,f6,e9 Pulmonary Disease
+468,0,c4,d5,f6 High Blood Sugar
+469,-1,b2,f6,e9 Cold
+470,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+471,1,c4,f6,a7,e9 Pulmonary Disease
+472,0,d3,c4,a7 Pancreatitis
+474,1,d5,f6,e9 Pulmonary Disease
+475,0,c4,d5,f6 High Blood Sugar
+476,-1,b2,f6,e9 Cold
+477,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+478,1,c4,f6,a7,e9 Pulmonary Disease
+479,0,d3,c4,a7 Pancreatitis
+481,1,d5,f6,e9 Pulmonary Disease
+482,0,c4,d5,f6 High Blood Sugar
+483,-1,b2,f6,e9 Cold
+484,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+485,1,c4,f6,a7,e9 Pulmonary Disease
+486,0,d3,c4,a7 Pancreatitis
+488,1,d5,f6,e9 Pulmonary Disease
+489,0,c4,d5,f6 High Blood Sugar
+490,-1,b2,f6,e9 Cold
+491,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+492,1,c4,f6,a7,e9 Pulmonary Disease
+493,0,d3,c4,a7 Pancreatitis
+495,1,d5,f6,e9 Pulmonary Disease
+496,0,c4,d5,f6 High Blood Sugar
+497,-1,b2,f6,e9 Cold
+498,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+499,1,c4,f6,a7,e9 Pulmonary Disease
+500,0,d3,c4,a7 Pancreatitis
+502,1,d5,f6,e9 Pulmonary Disease
+503,0,c4,d5,f6 High Blood Sugar
+504,-1,b2,f6,e9 Cold
+505,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+506,1,c4,f6,a7,e9 Pulmonary Disease
+507,0,d3,c4,a7 Pancreatitis
+509,1,d5,f6,e9 Pulmonary Disease
+510,0,c4,d5,f6 High Blood Sugar
+511,-1,b2,f6,e9 Cold
+512,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+513,1,c4,f6,a7,e9 Pulmonary Disease
+514,0,d3,c4,a7 Pancreatitis
+516,1,d5,f6,e9 Pulmonary Disease
+517,0,c4,d5,f6 High Blood Sugar
+518,-1,b2,f6,e9 Cold
+519,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+520,1,c4,f6,a7,e9 Pulmonary Disease
+521,0,d3,c4,a7 Pancreatitis
+523,1,d5,f6,e9 Pulmonary Disease
+524,0,c4,d5,f6 High Blood Sugar
+525,-1,b2,f6,e9 Cold
+526,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+527,1,c4,f6,a7,e9 Pulmonary Disease
+528,0,d3,c4,a7 Pancreatitis
+530,1,d5,f6,e9 Pulmonary Disease
+531,0,c4,d5,f6 High Blood Sugar
+532,-1,b2,f6,e9 Cold
+533,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+534,1,c4,f6,a7,e9 Pulmonary Disease
+535,0,d3,c4,a7 Pancreatitis
+537,1,d5,f6,e9 Pulmonary Disease
+538,0,c4,d5,f6 High Blood Sugar
+539,-1,b2,f6,e9 Cold
+540,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+541,1,c4,f6,a7,e9 Pulmonary Disease
+542,0,d3,c4,a7 Pancreatitis
+544,1,d5,f6,e9 Pulmonary Disease
+545,0,c4,d5,f6 High Blood Sugar
+546,-1,b2,f6,e9 Cold
+547,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+548,1,c4,f6,a7,e9 Pulmonary Disease
+549,0,d3,c4,a7 Pancreatitis
+551,1,d5,f6,e9 Pulmonary Disease
+552,0,c4,d5,f6 High Blood Sugar
+553,-1,b2,f6,e9 Cold
+554,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+555,1,c4,f6,a7,e9 Pulmonary Disease
+556,0,d3,c4,a7 Pancreatitis
+558,1,d5,f6,e9 Pulmonary Disease
+559,0,c4,d5,f6 High Blood Sugar
+560,-1,b2,f6,e9 Cold
+561,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+562,1,c4,f6,a7,e9 Pulmonary Disease
+563,0,d3,c4,a7 Pancreatitis
+565,1,d5,f6,e9 Pulmonary Disease
+566,0,c4,d5,f6 High Blood Sugar
+567,-1,b2,f6,e9 Cold
+568,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+569,1,c4,f6,a7,e9 Pulmonary Disease
+570,0,d3,c4,a7 Pancreatitis
+572,1,d5,f6,e9 Pulmonary Disease
+573,0,c4,d5,f6 High Blood Sugar
+574,-1,b2,f6,e9 Cold
+575,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+576,1,c4,f6,a7,e9 Pulmonary Disease
+577,0,d3,c4,a7 Pancreatitis
+579,1,d5,f6,e9 Pulmonary Disease
+580,0,c4,d5,f6 High Blood Sugar
+581,-1,b2,f6,e9 Cold
+582,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+583,1,c4,f6,a7,e9 Pulmonary Disease
+584,0,d3,c4,a7 Pancreatitis
+586,1,d5,f6,e9 Pulmonary Disease
+587,0,c4,d5,f6 High Blood Sugar
+588,-1,b2,f6,e9 Cold
+589,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+590,1,c4,f6,a7,e9 Pulmonary Disease
+591,0,d3,c4,a7 Pancreatitis
+593,1,d5,f6,e9 Pulmonary Disease
+594,0,c4,d5,f6 High Blood Sugar
+595,-1,b2,f6,e9 Cold
+596,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+597,1,c4,f6,a7,e9 Pulmonary Disease
+598,0,d3,c4,a7 Pancreatitis
+600,1,d5,f6,e9 Pulmonary Disease
+601,0,c4,d5,f6 High Blood Sugar
+602,-1,b2,f6,e9 Cold
+603,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+604,1,c4,f6,a7,e9 Pulmonary Disease
+605,0,d3,c4,a7 Pancreatitis
+607,1,d5,f6,e9 Pulmonary Disease
+608,0,c4,d5,f6 High Blood Sugar
+609,-1,b2,f6,e9 Cold
+610,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+611,1,c4,f6,a7,e9 Pulmonary Disease
+612,0,d3,c4,a7 Pancreatitis
+614,1,d5,f6,e9 Pulmonary Disease
+615,0,c4,d5,f6 High Blood Sugar
+616,-1,b2,f6,e9 Cold
+617,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+618,1,c4,f6,a7,e9 Pulmonary Disease
+619,0,d3,c4,a7 Pancreatitis
+621,1,d5,f6,e9 Pulmonary Disease
+622,0,c4,d5,f6 High Blood Sugar
+623,-1,b2,f6,e9 Cold
+624,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+625,1,c4,f6,a7,e9 Pulmonary Disease
+626,0,d3,c4,a7 Pancreatitis
+628,1,d5,f6,e9 Pulmonary Disease
+629,0,c4,d5,f6 High Blood Sugar
+630,-1,b2,f6,e9 Cold
+631,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+632,1,c4,f6,a7,e9 Pulmonary Disease
+633,0,d3,c4,a7 Pancreatitis
+635,1,d5,f6,e9 Pulmonary Disease
+636,0,c4,d5,f6 High Blood Sugar
+637,-1,b2,f6,e9 Cold
+638,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+639,1,c4,f6,a7,e9 Pulmonary Disease
+640,0,d3,c4,a7 Pancreatitis
+642,1,d5,f6,e9 Pulmonary Disease
+643,0,c4,d5,f6 High Blood Sugar
+644,-1,b2,f6,e9 Cold
+645,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+646,1,c4,f6,a7,e9 Pulmonary Disease
+647,0,d3,c4,a7 Pancreatitis
+649,1,d5,f6,e9 Pulmonary Disease
+650,0,c4,d5,f6 High Blood Sugar
+651,-1,b2,f6,e9 Cold
+652,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+653,1,c4,f6,a7,e9 Pulmonary Disease
+654,0,d3,c4,a7 Pancreatitis
+656,1,d5,f6,e9 Pulmonary Disease
+657,0,c4,d5,f6 High Blood Sugar
+658,-1,b2,f6,e9 Cold
+659,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+660,1,c4,f6,a7,e9 Pulmonary Disease
+661,0,d3,c4,a7 Pancreatitis
+663,1,d5,f6,e9 Pulmonary Disease
+664,0,c4,d5,f6 High Blood Sugar
+665,-1,b2,f6,e9 Cold
+666,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+667,1,c4,f6,a7,e9 Pulmonary Disease
+668,0,d3,c4,a7 Pancreatitis
+670,1,d5,f6,e9 Pulmonary Disease
+671,0,c4,d5,f6 High Blood Sugar
+672,-1,b2,f6,e9 Cold
+673,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+674,1,c4,f6,a7,e9 Pulmonary Disease
+675,0,d3,c4,a7 Pancreatitis
+677,1,d5,f6,e9 Pulmonary Disease
+678,0,c4,d5,f6 High Blood Sugar
+679,-1,b2,f6,e9 Cold
+680,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+681,1,c4,f6,a7,e9 Pulmonary Disease
+682,0,d3,c4,a7 Pancreatitis
+684,1,d5,f6,e9 Pulmonary Disease
+685,0,c4,d5,f6 High Blood Sugar
+686,-1,b2,f6,e9 Cold
+687,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+688,1,c4,f6,a7,e9 Pulmonary Disease
+689,0,d3,c4,a7 Pancreatitis
+691,1,d5,f6,e9 Pulmonary Disease
+692,0,c4,d5,f6 High Blood Sugar
+693,-1,b2,f6,e9 Cold
+694,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+695,1,c4,f6,a7,e9 Pulmonary Disease
+696,0,d3,c4,a7 Pancreatitis
+698,1,d5,f6,e9 Pulmonary Disease
+699,0,c4,d5,f6 High Blood Sugar
+700,-1,b2,f6,e9 Cold
+701,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+702,1,c4,f6,a7,e9 Pulmonary Disease
+703,0,d3,c4,a7 Pancreatitis
+705,1,d5,f6,e9 Pulmonary Disease
+706,0,c4,d5,f6 High Blood Sugar
+707,-1,b2,f6,e9 Cold
+708,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+709,1,c4,f6,a7,e9 Pulmonary Disease
+710,0,d3,c4,a7 Pancreatitis
+712,1,d5,f6,e9 Pulmonary Disease
+713,0,c4,d5,f6 High Blood Sugar
+714,-1,b2,f6,e9 Cold
+715,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+716,1,c4,f6,a7,e9 Pulmonary Disease
+717,0,d3,c4,a7 Pancreatitis
+719,1,d5,f6,e9 Pulmonary Disease
+720,0,c4,d5,f6 High Blood Sugar
+721,-1,b2,f6,e9 Cold
+722,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+723,1,c4,f6,a7,e9 Pulmonary Disease
+724,0,d3,c4,a7 Pancreatitis
+726,1,d5,f6,e9 Pulmonary Disease
+727,0,c4,d5,f6 High Blood Sugar
+728,-1,b2,f6,e9 Cold
+729,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+730,1,c4,f6,a7,e9 Pulmonary Disease
+731,0,d3,c4,a7 Pancreatitis
+733,1,d5,f6,e9 Pulmonary Disease
+734,0,c4,d5,f6 High Blood Sugar
+735,-1,b2,f6,e9 Cold
+736,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+737,1,c4,f6,a7,e9 Pulmonary Disease
+738,0,d3,c4,a7 Pancreatitis
+740,1,d5,f6,e9 Pulmonary Disease
+741,0,c4,d5,f6 High Blood Sugar
+742,-1,b2,f6,e9 Cold
+743,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+744,1,c4,f6,a7,e9 Pulmonary Disease
+745,0,d3,c4,a7 Pancreatitis
+747,1,d5,f6,e9 Pulmonary Disease
+748,0,c4,d5,f6 High Blood Sugar
+749,-1,b2,f6,e9 Cold
+750,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+751,1,c4,f6,a7,e9 Pulmonary Disease
+752,0,d3,c4,a7 Pancreatitis
+754,1,d5,f6,e9 Pulmonary Disease
+755,0,c4,d5,f6 High Blood Sugar
+756,-1,b2,f6,e9 Cold
+757,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+758,1,c4,f6,a7,e9 Pulmonary Disease
+759,0,d3,c4,a7 Pancreatitis
+761,1,d5,f6,e9 Pulmonary Disease
+762,0,c4,d5,f6 High Blood Sugar
+763,-1,b2,f6,e9 Cold
+764,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+765,1,c4,f6,a7,e9 Pulmonary Disease
+766,0,d3,c4,a7 Pancreatitis
+768,1,d5,f6,e9 Pulmonary Disease
+769,0,c4,d5,f6 High Blood Sugar
+770,-1,b2,f6,e9 Cold
+771,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+772,1,c4,f6,a7,e9 Pulmonary Disease
+773,0,d3,c4,a7 Pancreatitis
+775,1,d5,f6,e9 Pulmonary Disease
+776,0,c4,d5,f6 High Blood Sugar
+777,-1,b2,f6,e9 Cold
+778,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+779,1,c4,f6,a7,e9 Pulmonary Disease
+780,0,d3,c4,a7 Pancreatitis
+782,1,d5,f6,e9 Pulmonary Disease
+783,0,c4,d5,f6 High Blood Sugar
+784,-1,b2,f6,e9 Cold
+785,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+786,1,c4,f6,a7,e9 Pulmonary Disease
+787,0,d3,c4,a7 Pancreatitis
+789,1,d5,f6,e9 Pulmonary Disease
+790,0,c4,d5,f6 High Blood Sugar
+791,-1,b2,f6,e9 Cold
+792,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+793,1,c4,f6,a7,e9 Pulmonary Disease
+794,0,d3,c4,a7 Pancreatitis
+796,1,d5,f6,e9 Pulmonary Disease
+797,0,c4,d5,f6 High Blood Sugar
+798,-1,b2,f6,e9 Cold
+799,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+800,1,c4,f6,a7,e9 Pulmonary Disease
+801,0,d3,c4,a7 Pancreatitis
+803,1,d5,f6,e9 Pulmonary Disease
+804,0,c4,d5,f6 High Blood Sugar
+805,-1,b2,f6,e9 Cold
+806,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+807,1,c4,f6,a7,e9 Pulmonary Disease
+808,0,d3,c4,a7 Pancreatitis
+810,1,d5,f6,e9 Pulmonary Disease
+811,0,c4,d5,f6 High Blood Sugar
+812,-1,b2,f6,e9 Cold
+813,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+814,1,c4,f6,a7,e9 Pulmonary Disease
+815,0,d3,c4,a7 Pancreatitis
+817,1,d5,f6,e9 Pulmonary Disease
+818,0,c4,d5,f6 High Blood Sugar
+819,-1,b2,f6,e9 Cold
+820,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+821,1,c4,f6,a7,e9 Pulmonary Disease
+822,0,d3,c4,a7 Pancreatitis
+824,1,d5,f6,e9 Pulmonary Disease
+825,0,c4,d5,f6 High Blood Sugar
+826,-1,b2,f6,e9 Cold
+827,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+828,1,c4,f6,a7,e9 Pulmonary Disease
+829,0,d3,c4,a7 Pancreatitis
+831,1,d5,f6,e9 Pulmonary Disease
+832,0,c4,d5,f6 High Blood Sugar
+833,-1,b2,f6,e9 Cold
+834,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+835,1,c4,f6,a7,e9 Pulmonary Disease
+836,0,d3,c4,a7 Pancreatitis
+838,1,d5,f6,e9 Pulmonary Disease
+839,0,c4,d5,f6 High Blood Sugar
+840,-1,b2,f6,e9 Cold
+841,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+842,1,c4,f6,a7,e9 Pulmonary Disease
+843,0,d3,c4,a7 Pancreatitis
+845,1,d5,f6,e9 Pulmonary Disease
+846,0,c4,d5,f6 High Blood Sugar
+847,-1,b2,f6,e9 Cold
+848,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+849,1,c4,f6,a7,e9 Pulmonary Disease
+850,0,d3,c4,a7 Pancreatitis
+852,1,d5,f6,e9 Pulmonary Disease
+853,0,c4,d5,f6 High Blood Sugar
+854,-1,b2,f6,e9 Cold
+855,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+856,1,c4,f6,a7,e9 Pulmonary Disease
+857,0,d3,c4,a7 Pancreatitis
+859,1,d5,f6,e9 Pulmonary Disease
+860,0,c4,d5,f6 High Blood Sugar
+861,-1,b2,f6,e9 Cold
+862,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+863,1,c4,f6,a7,e9 Pulmonary Disease
+864,0,d3,c4,a7 Pancreatitis
+866,1,d5,f6,e9 Pulmonary Disease
+867,0,c4,d5,f6 High Blood Sugar
+868,-1,b2,f6,e9 Cold
+869,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+870,1,c4,f6,a7,e9 Pulmonary Disease
+871,0,d3,c4,a7 Pancreatitis
+873,1,d5,f6,e9 Pulmonary Disease
+874,0,c4,d5,f6 High Blood Sugar
+875,-1,b2,f6,e9 Cold
+876,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+877,1,c4,f6,a7,e9 Pulmonary Disease
+878,0,d3,c4,a7 Pancreatitis
+880,1,d5,f6,e9 Pulmonary Disease
+881,0,c4,d5,f6 High Blood Sugar
+882,-1,b2,f6,e9 Cold
+883,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+884,1,c4,f6,a7,e9 Pulmonary Disease
+885,0,d3,c4,a7 Pancreatitis
+887,1,d5,f6,e9 Pulmonary Disease
+888,0,c4,d5,f6 High Blood Sugar
+889,-1,b2,f6,e9 Cold
+890,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+891,1,c4,f6,a7,e9 Pulmonary Disease
+892,0,d3,c4,a7 Pancreatitis
+894,1,d5,f6,e9 Pulmonary Disease
+895,0,c4,d5,f6 High Blood Sugar
+896,-1,b2,f6,e9 Cold
+897,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+898,1,c4,f6,a7,e9 Pulmonary Disease
+899,0,d3,c4,a7 Pancreatitis
+901,1,d5,f6,e9 Pulmonary Disease
+902,0,c4,d5,f6 High Blood Sugar
+903,-1,b2,f6,e9 Cold
+904,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+905,1,c4,f6,a7,e9 Pulmonary Disease
+906,0,d3,c4,a7 Pancreatitis
+908,1,d5,f6,e9 Pulmonary Disease
+909,0,c4,d5,f6 High Blood Sugar
+910,-1,b2,f6,e9 Cold
+911,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+912,1,c4,f6,a7,e9 Pulmonary Disease
+913,0,d3,c4,a7 Pancreatitis
+915,1,d5,f6,e9 Pulmonary Disease
+916,0,c4,d5,f6 High Blood Sugar
+917,-1,b2,f6,e9 Cold
+918,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+919,1,c4,f6,a7,e9 Pulmonary Disease
+920,0,d3,c4,a7 Pancreatitis
+922,1,d5,f6,e9 Pulmonary Disease
+923,0,c4,d5,f6 High Blood Sugar
+924,-1,b2,f6,e9 Cold
+925,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+926,1,c4,f6,a7,e9 Pulmonary Disease
+927,0,d3,c4,a7 Pancreatitis
+929,1,d5,f6,e9 Pulmonary Disease
+930,0,c4,d5,f6 High Blood Sugar
+931,-1,b2,f6,e9 Cold
+932,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+933,1,c4,f6,a7,e9 Pulmonary Disease
+934,0,d3,c4,a7 Pancreatitis
+936,1,d5,f6,e9 Pulmonary Disease
+937,0,c4,d5,f6 High Blood Sugar
+938,-1,b2,f6,e9 Cold
+939,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+940,1,c4,f6,a7,e9 Pulmonary Disease
+941,0,d3,c4,a7 Pancreatitis
+943,1,d5,f6,e9 Pulmonary Disease
+944,0,c4,d5,f6 High Blood Sugar
+945,-1,b2,f6,e9 Cold
+946,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+947,1,c4,f6,a7,e9 Pulmonary Disease
+948,0,d3,c4,a7 Pancreatitis
+950,1,d5,f6,e9 Pulmonary Disease
+951,0,c4,d5,f6 High Blood Sugar
+952,-1,b2,f6,e9 Cold
+953,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+954,1,c4,f6,a7,e9 Pulmonary Disease
+955,0,d3,c4,a7 Pancreatitis
+957,1,d5,f6,e9 Pulmonary Disease
+958,0,c4,d5,f6 High Blood Sugar
+959,-1,b2,f6,e9 Cold
+960,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+961,1,c4,f6,a7,e9 Pulmonary Disease
+962,0,d3,c4,a7 Pancreatitis
+964,1,d5,f6,e9 Pulmonary Disease
+965,0,c4,d5,f6 High Blood Sugar
+966,-1,b2,f6,e9 Cold
+967,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+968,1,c4,f6,a7,e9 Pulmonary Disease
+969,0,d3,c4,a7 Pancreatitis
+971,1,d5,f6,e9 Pulmonary Disease
+972,0,c4,d5,f6 High Blood Sugar
+973,-1,b2,f6,e9 Cold
+974,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+975,1,c4,f6,a7,e9 Pulmonary Disease
+976,0,d3,c4,a7 Pancreatitis
+978,1,d5,f6,e9 Pulmonary Disease
+979,0,c4,d5,f6 High Blood Sugar
+980,-1,b2,f6,e9 Cold
+981,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+982,1,c4,f6,a7,e9 Pulmonary Disease
+983,0,d3,c4,a7 Pancreatitis
+985,1,d5,f6,e9 Pulmonary Disease
+986,0,c4,d5,f6 High Blood Sugar
+987,-1,b2,f6,e9 Cold
+988,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+989,1,c4,f6,a7,e9 Pulmonary Disease
+990,0,d3,c4,a7 Pancreatitis
+992,1,d5,f6,e9 Pulmonary Disease
+993,0,c4,d5,f6 High Blood Sugar
+994,-1,b2,f6,e9 Cold
+995,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+996,1,c4,f6,a7,e9 Pulmonary Disease
+997,0,d3,c4,a7 Pancreatitis
+999,1,d5,f6,e9 Pulmonary Disease
+1000,0,c4,d5,f6 High Blood Sugar
+1001,-1,b2,f6,e9 Cold
+1002,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+1003,1,c4,f6,a7,e9 Pulmonary Disease
+1004,0,d3,c4,a7 Pancreatitis
+1006,1,d5,f6,e9 Pulmonary Disease
+1007,0,c4,d5,f6 High Blood Sugar
+1008,-1,b2,f6,e9 Cold
+1009,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+1010,1,c4,f6,a7,e9 Pulmonary Disease
+1011,0,d3,c4,a7 Pancreatitis
+1013,1,d5,f6,e9 Pulmonary Disease
+1014,0,c4,d5,f6 High Blood Sugar
+1015,-1,b2,f6,e9 Cold
+1016,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+1017,1,c4,f6,a7,e9 Pulmonary Disease
+1018,0,d3,c4,a7 Pancreatitis
+1020,1,d5,f6,e9 Pulmonary Disease
+1021,0,c4,d5,f6 High Blood Sugar
+1022,-1,b2,f6,e9 Cold
+1023,0,b2,d3,c4,f6,a7,e8 Weakness of Immune System
+1024,1,c4,f6,a7,e9 Pulmonary Disease
+1025,0,d3,c4,a7 Pancreatitis
+1027,1,d5,f6,e9 Pulmonary Disease
+1028,0,c4,d5,f6 High Blood Sugar
+1029,-1,b2,f6,e9 Cold
+1030,0,b2,d3,c4,f6,a7,e8 HIV
+1031,1,c4,f6,a7,e9 Pulmonary Disease
+1032,0,d3,c4,a7 Pancreatitis
+1034,1,d5,f6,e9 Pulmonary Disease
+1035,0,c4,d5,f6 Diabetes
+1036,-1,b2,f6,e9 Cold
+1037,0,b2,d3,c4,f6,a7,e8 HIV
+1038,1,c4,f6,a7,e9 Pulmonary Disease
+1039,0,d3,c4,a7 Pancreatitis
+1041,1,d5,f6,e9 Pulmonary Disease
+1042,0,c4,d5,f6 Diabetes
+1043,-1,b2,f6,e9 Cold
+1044,0,b2,d3,c4,f6,a7,e8 HIV
+1045,1,c4,f6,a7,e9 Pulmonary Disease
+1046,0,d3,c4,a7 Pancreatitis
+1048,1,d5,f6,e9 Pulmonary Disease
+1049,0,c4,d5,f6 Diabetes
+1050,-1,b2,f6,e9 Cold
+1051,0,b2,d3,c4,f6,a7,e8 HIV
+1052,1,c4,f6,a7,e9 Pulmonary Disease
+1053,0,d3,c4,a7 Pancreatitis
+1055,1,d5,f6,e9 Pulmonary Disease
+1056,0,c4,d5,f6 Diabetes
+1057,-1,b2,f6,e9 Cold
+1058,0,b2,d3,c4,f6,a7,e8 HIV
+1059,1,c4,f6,a7,e9 Pulmonary Disease
+1060,0,d3,c4,a7 Pancreatitis
+1062,1,d5,f6,e9 Pulmonary Disease
+1063,0,c4,d5,f6 Diabetes
+1064,-1,b2,f6,e9 Cold
+1065,0,b2,d3,c4,f6,a7,e8 HIV
+1066,1,c4,f6,a7,e9 Pulmonary Disease
+1067,0,d3,c4,a7 Pancreatitis
+1069,1,d5,f6,e9 Pulmonary Disease
+1070,0,c4,d5,f6 Diabetes
+1071,-1,b2,f6,e9 Cold
+1072,0,b2,d3,c4,f6,a7,e8 HIV
+1073,1,c4,f6,a7,e9 Pulmonary Disease
+1074,0,d3,c4,a7 Pancreatitis
+1076,1,d5,f6,e9 Pulmonary Disease
+1077,0,c4,d5,f6 Diabetes
+1078,-1,b2,f6,e9 Cold
+1079,0,b2,d3,c4,f6,a7,e8 HIV
+1080,1,c4,f6,a7,e9 Pulmonary Disease
+1081,0,d3,c4,a7 Pancreatitis
+1083,1,d5,f6,e9 Pulmonary Disease
+1084,0,c4,d5,f6 Diabetes
+1085,-1,b2,f6,e9 Cold
+1086,0,b2,d3,c4,f6,a7,e8 HIV
+1087,1,c4,f6,a7,e9 Pulmonary Disease
+1088,0,d3,c4,a7 Pancreatitis
+1090,1,d5,f6,e9 Pulmonary Disease
+1091,0,c4,d5,f6 Diabetes
+1092,-1,b2,f6,e9 Cold
+1093,0,b2,d3,c4,f6,a7,e8 HIV
+1094,1,c4,f6,a7,e9 Pulmonary Disease
+1095,0,d3,c4,a7 Pancreatitis
+1097,1,d5,f6,e9 Pulmonary Disease
+1098,0,c4,d5,f6 Diabetes
+1099,-1,b2,f6,e9 Cold
+1100,0,b2,d3,c4,f6,a7,e8 HIV
+1101,1,c4,f6,a7,e9 Pulmonary Disease
+1102,0,d3,c4,a7 Pancreatitis
+1104,1,d5,f6,e9 Pulmonary Disease
+1105,0,c4,d5,f6 Diabetes
+1106,-1,b2,f6,e9 Cold
+1107,0,b2,d3,c4,f6,a7,e8 HIV
+1108,1,c4,f6,a7,e9 Pulmonary Disease
+1109,0,d3,c4,a7 Pancreatitis
+1111,1,d5,f6,e9 Pulmonary Disease
+1112,0,c4,d5,f6 Diabetes
+1113,-1,b2,f6,e9 Cold
+1114,0,b2,d3,c4,f6,a7,e8 HIV
+1115,1,c4,f6,a7,e9 Pulmonary Disease
+1116,0,d3,c4,a7 Pancreatitis
+1118,1,d5,f6,e9 Pulmonary Disease
+1119,0,c4,d5,f6 Diabetes
+1120,-1,b2,f6,e9 Cold
+1121,0,b2,d3,c4,f6,a7,e8 HIV
+1122,1,c4,f6,a7,e9 Pulmonary Disease
+1123,0,d3,c4,a7 Pancreatitis
+1125,1,d5,f6,e9 Pulmonary Disease
+1126,0,c4,d5,f6 Diabetes
+1127,-1,b2,f6,e9 Cold
+1128,0,b2,d3,c4,f6,a7,e8 HIV
+1129,1,c4,f6,a7,e9 Pulmonary Disease
+1130,0,d3,c4,a7 Pancreatitis
+1132,1,d5,f6,e9 Pulmonary Disease
+1133,0,c4,d5,f6 Diabetes
+1134,-1,b2,f6,e9 Cold
+1135,0,b2,d3,c4,f6,a7,e8 HIV
+1136,1,c4,f6,a7,e9 Pulmonary Disease
+1137,0,d3,c4,a7 Pancreatitis
+1139,1,d5,f6,e9 Pulmonary Disease
+1140,0,c4,d5,f6 Diabetes
+1141,-1,b2,f6,e9 Cold
+1142,0,b2,d3,c4,f6,a7,e8 HIV
+1143,1,c4,f6,a7,e9 Pulmonary Disease
+1144,0,d3,c4,a7 Pancreatitis
+1146,1,d5,f6,e9 Pulmonary Disease
+1147,0,c4,d5,f6 Diabetes
+1148,-1,b2,f6,e9 Cold
+1149,0,b2,d3,c4,f6,a7,e8 HIV
+1150,1,c4,f6,a7,e9 Pulmonary Disease
+1151,0,d3,c4,a7 Pancreatitis
+1153,1,d5,f6,e9 Pulmonary Disease
+1154,0,c4,d5,f6 Diabetes
+1155,-1,b2,f6,e9 Cold
+1156,0,b2,d3,c4,f6,a7,e8 HIV
+1157,1,c4,f6,a7,e9 Pulmonary Disease
+1158,0,d3,c4,a7 Pancreatitis
+1160,1,d5,f6,e9 Pulmonary Disease
+1161,0,c4,d5,f6 Diabetes
+1162,-1,b2,f6,e9 Cold
+1163,0,b2,d3,c4,f6,a7,e8 HIV
+1164,1,c4,f6,a7,e9 Pulmonary Disease
+1165,0,d3,c4,a7 Pancreatitis
+1167,1,d5,f6,e9 Pulmonary Disease
+1168,0,c4,d5,f6 Diabetes
+1169,-1,b2,f6,e9 Cold
+1170,0,b2,d3,c4,f6,a7,e8 HIV
+1171,1,c4,f6,a7,e9 Pulmonary Disease
+1172,0,d3,c4,a7 Pancreatitis
+1174,1,d5,f6,e9 Pulmonary Disease
+1175,0,c4,d5,f6 Diabetes
+1176,-1,b2,f6,e9 Cold
+1177,0,b2,d3,c4,f6,a7,e8 HIV
+1178,1,c4,f6,a7,e9 Pulmonary Disease
+1179,0,d3,c4,a7 Pancreatitis
+1181,1,d5,f6,e9 Pulmonary Disease
+1182,0,c4,d5,f6 Diabetes
+1183,-1,b2,f6,e9 Cold
+1184,0,b2,d3,c4,f6,a7,e8 HIV
+1185,1,c4,f6,a7,e9 Pulmonary Disease
+1186,0,d3,c4,a7 Pancreatitis
+1188,1,d5,f6,e9 Pulmonary Disease
+1189,0,c4,d5,f6 Diabetes
+1190,-1,b2,f6,e9 Cold
+1191,0,b2,d3,c4,f6,a7,e8 HIV
+1192,1,c4,f6,a7,e9 Pulmonary Disease
+1193,0,d3,c4,a7 Pancreatitis
+1195,1,d5,f6,e9 Pulmonary Disease
+1196,0,c4,d5,f6 Diabetes
+1197,-1,b2,f6,e9 Cold
+1198,0,b2,d3,c4,f6,a7,e8 HIV
+1199,1,c4,f6,a7,e9 Pulmonary Disease
+1200,0,d3,c4,a7 Pancreatitis
+1202,1,d5,f6,e9 Pulmonary Disease
+1203,0,c4,d5,f6 Diabetes
+1204,-1,b2,f6,e9 Cold
+1205,0,b2,d3,c4,f6,a7,e8 HIV
+1206,1,c4,f6,a7,e9 Pulmonary Disease
+1207,0,d3,c4,a7 Pancreatitis
+1209,1,d5,f6,e9 Pulmonary Disease
+1210,0,c4,d5,f6 Diabetes
+1211,-1,b2,f6,e9 Cold
+1212,0,b2,d3,c4,f6,a7,e8 HIV
+1213,1,c4,f6,a7,e9 Pulmonary Disease
+1214,0,d3,c4,a7 Pancreatitis
+1216,1,d5,f6,e9 Pulmonary Disease
+1217,0,c4,d5,f6 Diabetes
+1218,-1,b2,f6,e9 Cold
+1219,0,b2,d3,c4,f6,a7,e8 HIV
+1220,1,c4,f6,a7,e9 Pulmonary Disease
+1221,0,d3,c4,a7 Pancreatitis
+1223,1,d5,f6,e9 Pulmonary Disease
+1224,0,c4,d5,f6 Diabetes
+1225,-1,b2,f6,e9 Cold
+1226,0,b2,d3,c4,f6,a7,e8 HIV
+1227,1,c4,f6,a7,e9 Pulmonary Disease
+1228,0,d3,c4,a7 Pancreatitis
+1230,1,d5,f6,e9 Pulmonary Disease
+1231,0,c4,d5,f6 Diabetes
+1232,-1,b2,f6,e9 Cold
+1233,0,b2,d3,c4,f6,a7,e8 HIV
+1234,1,c4,f6,a7,e9 Pulmonary Disease
+1235,0,d3,c4,a7 Pancreatitis
+1237,1,d5,f6,e9 Pulmonary Disease
+1238,0,c4,d5,f6 Diabetes
+1239,-1,b2,f6,e9 Cold
+1240,0,b2,d3,c4,f6,a7,e8 HIV
+1241,1,c4,f6,a7,e9 Pulmonary Disease
+1242,0,d3,c4,a7 Pancreatitis
+1244,1,d5,f6,e9 Pulmonary Disease
+1245,0,c4,d5,f6 Diabetes
+1246,-1,b2,f6,e9 Cold
+1247,0,b2,d3,c4,f6,a7,e8 HIV
+1248,1,c4,f6,a7,e9 Pulmonary Disease
+1249,0,d3,c4,a7 Pancreatitis
+1251,1,d5,f6,e9 Pulmonary Disease
+1252,0,c4,d5,f6 Diabetes
+1253,-1,b2,f6,e9 Cold
+1254,0,b2,d3,c4,f6,a7,e8 HIV
+1255,1,c4,f6,a7,e9 Pulmonary Disease
+1256,0,d3,c4,a7 Pancreatitis
+1258,1,d5,f6,e9 Pulmonary Disease
+1259,0,c4,d5,f6 Diabetes
+1260,-1,b2,f6,e9 Cold
+1261,0,b2,d3,c4,f6,a7,e8 HIV
+1262,1,c4,f6,a7,e9 Pulmonary Disease
+1263,0,d3,c4,a7 Pancreatitis
+1265,1,d5,f6,e9 Pulmonary Disease
+1266,0,c4,d5,f6 Diabetes
+1267,-1,b2,f6,e9 Cold
+1268,0,b2,d3,c4,f6,a7,e8 HIV
+1269,1,c4,f6,a7,e9 Pulmonary Disease
+1270,0,d3,c4,a7 Pancreatitis
+1272,1,d5,f6,e9 Pulmonary Disease
+1273,0,c4,d5,f6 Diabetes
+1274,-1,b2,f6,e9 Cold
+1275,0,b2,d3,c4,f6,a7,e8 HIV
+1276,1,c4,f6,a7,e9 Pulmonary Disease
+1277,0,d3,c4,a7 Pancreatitis
+1279,1,d5,f6,e9 Pulmonary Disease
+1280,0,c4,d5,f6 Diabetes
+1281,-1,b2,f6,e9 Cold
+1282,0,b2,d3,c4,f6,a7,e8 HIV
+1283,1,c4,f6,a7,e9 Pulmonary Disease
+1284,0,d3,c4,a7 Pancreatitis
+1286,1,d5,f6,e9 Pulmonary Disease
+1287,0,c4,d5,f6 Diabetes
+1288,-1,b2,f6,e9 Cold
+1289,0,b2,d3,c4,f6,a7,e8 HIV
+1290,1,c4,f6,a7,e9 Pulmonary Disease
+1291,0,d3,c4,a7 Pancreatitis
+1293,1,d5,f6,e9 Pulmonary Disease
+1294,0,c4,d5,f6 Diabetes
+1295,-1,b2,f6,e9 Cold
+1296,0,b2,d3,c4,f6,a7,e8 HIV
+1297,1,c4,f6,a7,e9 Pulmonary Disease
+1298,0,d3,c4,a7 Pancreatitis
+1300,1,d5,f6,e9 Pulmonary Disease
+1301,0,c4,d5,f6 Diabetes
+1302,-1,b2,f6,e9 Cold
+1303,0,b2,d3,c4,f6,a7,e8 HIV
+1304,1,c4,f6,a7,e9 Pulmonary Disease
+1305,0,d3,c4,a7 Pancreatitis
+1307,1,d5,f6,e9 Pulmonary Disease
+1308,0,c4,d5,f6 Diabetes
+1309,-1,b2,f6,e9 Cold
+1310,0,b2,d3,c4,f6,a7,e8 HIV
+1311,1,c4,f6,a7,e9 Pulmonary Disease
+1312,0,d3,c4,a7 Pancreatitis
+1314,1,d5,f6,e9 Pulmonary Disease
+1315,0,c4,d5,f6 Diabetes
+1316,-1,b2,f6,e9 Cold
+1317,0,b2,d3,c4,f6,a7,e8 HIV
+1318,1,c4,f6,a7,e9 Pulmonary Disease
+1319,0,d3,c4,a7 Pancreatitis
+1321,1,d5,f6,e9 Pulmonary Disease
+1322,0,c4,d5,f6 Diabetes
+1323,-1,b2,f6,e9 Cold
+1324,0,b2,d3,c4,f6,a7,e8 HIV
+1325,1,c4,f6,a7,e9 Pulmonary Disease
+1326,0,d3,c4,a7 Pancreatitis
+1328,1,d5,f6,e9 Pulmonary Disease
+1329,0,c4,d5,f6 Diabetes
+1330,-1,b2,f6,e9 Cold
+1331,0,b2,d3,c4,f6,a7,e8 HIV
+1332,1,c4,f6,a7,e9 Pulmonary Disease
+1333,0,d3,c4,a7 Pancreatitis
+1335,1,d5,f6,e9 Pulmonary Disease
+1336,0,c4,d5,f6 Diabetes
+1337,-1,b2,f6,e9 Cold
+1338,0,b2,d3,c4,f6,a7,e8 HIV
+1339,1,c4,f6,a7,e9 SARS
+1340,0,d3,c4,a7 Pancreatitis
+1342,1,d5,f6,e9 Flu
+1343,0,c4,d5,f6 Diabetes
+1344,-1,b2,f6,e9 Cold
+1345,0,b2,d3,c4,f6,a7,e8 HIV
+1346,1,c4,f6,a7,e9 SARS
+1347,0,d3,c4,a7 Pancreatitis
+1349,1,d5,f6,e9 Flu
+1350,0,c4,d5,f6 Diabetes
+1351,-1,b2,f6,e9 Cold
+1352,0,b2,d3,c4,f6,a7,e8 HIV
+1353,1,c4,f6,a7,e9 SARS
+1354,0,d3,c4,a7 Pancreatitis
+1356,1,d5,f6,e9 Flu
+1357,0,c4,d5,f6 Diabetes
+1358,-1,b2,f6,e9 Cold
+1359,0,b2,d3,c4,f6,a7,e8 HIV
+1360,1,c4,f6,a7,e9 SARS
+1361,0,d3,c4,a7 Pancreatitis
+1363,1,d5,f6,e9 Flu
+1364,0,c4,d5,f6 Diabetes
+1365,-1,b2,f6,e9 Cold
+1366,0,b2,d3,c4,f6,a7,e8 HIV
+1367,1,c4,f6,a7,e9 SARS
+1368,0,d3,c4,a7 Pancreatitis
+1370,1,d5,f6,e9 Flu
+1371,0,c4,d5,f6 Diabetes
+1372,-1,b2,f6,e9 Cold
+1373,0,b2,d3,c4,f6,a7,e8 HIV
+1374,1,c4,f6,a7,e9 SARS
+1375,0,d3,c4,a7 Pancreatitis
+1377,1,d5,f6,e9 Flu
+1378,0,c4,d5,f6 Diabetes
+1379,-1,b2,f6,e9 Cold
+1380,0,b2,d3,c4,f6,a7,e8 HIV
+1381,1,c4,f6,a7,e9 SARS
+1382,0,d3,c4,a7 Pancreatitis
+1384,1,d5,f6,e9 Flu
+1385,0,c4,d5,f6 Diabetes
+1386,-1,b2,f6,e9 Cold
+1387,0,b2,d3,c4,f6,a7,e8 HIV
+1388,1,c4,f6,a7,e9 SARS
+1389,0,d3,c4,a7 Pancreatitis
+1391,1,d5,f6,e9 Flu
+1392,0,c4,d5,f6 Diabetes
+1393,-1,b2,f6,e9 Cold
+1394,0,b2,d3,c4,f6,a7,e8 HIV
+1395,1,c4,f6,a7,e9 SARS
+1396,0,d3,c4,a7 Pancreatitis
+1398,1,d5,f6,e9 Flu
+1399,0,c4,d5,f6 Diabetes
+1400,-1,b2,f6,e9 Cold

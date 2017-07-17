@@ -12,5 +12,6 @@ The download link is
 This code base includes the code of five algorithms, they are SAGTD, STR, SAG, MPSTD, MCST respectively. They are implemented by C Language.
 
 ## comments
-- one malloc, one free!
-- less Loop, more efficient!
+- One malloc, one free!
+- Less Loop, more efficient!
+- When data is big, run it, not debug it!

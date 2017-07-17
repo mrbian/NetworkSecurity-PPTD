@@ -14,6 +14,8 @@ char* join(char *s1, char *s2);
 
 void appendDatabaseToFile(database * db, char * destFilePath);
 
+void coverDatabaseToFile(database *db, char * destFilePath);
+
 void generateBigDatabase( char * srcFilePath, char * destFilePath, int loopTimes);
 
 void analysis_main();

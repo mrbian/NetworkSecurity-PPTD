@@ -1,6 +1,7 @@
 //
 // Created by bian on 2017/7/16.
 //
+#include <time.h>
 #include "analysis.h"
 
 char* join(char *s1, char *s2)
@@ -45,10 +46,28 @@ void appendDatabaseToFile(database * db, char * destFilePath){
     fclose(fp);
 }
 
+void coverDatabaseToFile(database *db, char * destFilePath){
+    FILE *fp;
+    if((fp = fopen(destFilePath,"w+")) == NULL){
+        printf("open file fail\n");
+        exit(-1);
+    };
+    fclose(fp);
+
+    appendDatabaseToFile(db,destFilePath);
+}
+
 void generateBigDatabase(char * srcFilePath, char * destFilePath, int loopTimes){
     database * cache = initDb();
     migrate(cache,srcFilePath);
 //    traverseDb(cache,printRow);
+
+    FILE *fp;
+    if((fp = fopen(destFilePath,"w+")) == NULL){
+        printf("open file fail\n");
+        exit(-1);
+    };
+    fclose(fp);
 
     int i,j,len;
     len = getLengthOfDB(cache);
@@ -58,28 +77,67 @@ void generateBigDatabase(char * srcFilePath, char * destFilePath, int loopTimes)
             cache[j]->id += len;
         }
     }
-    printf("generate over");
+    printf("generate data file over\n");
 }
 
 int SAGTDBreakFunc(database * Bj, database *Cj,  database * T, float PbThreshold, int maxDepth, trackRow * attack_row);
 
-void analysis_main(){
-//    generateBigDatabase(DB_FILE_PATH_3,BIG_DB_FILE_PATH,200);
+int MPSTDBreakFunc(char * a, trackSet *b, database *c){};
 
-    database * originDB = initDb();
-    migrate(originDB,BIG_DB_FILE_PATH);     // originDB
+void sagtdProcess(treeNode * root, database * originDB,int maxDepth,float PbThreshold){
+    double  start, finish;
+    start = clock();//取开始时间
+    printf("sagtd processing!\n");
 
-    // DB
     database * db = initDb();
     migrate(db,BIG_DB_FILE_PATH);
 
-    // tree
-    treeNode * root = migrateTree(CONFIG_PATH);
+    db = SAGTD(originDB,db,root,maxDepth,PbThreshold,maxDepth,0,SAGTDBreakFunc);
+    sortDB(db);
 
+    finish = clock();//取结束时间
+    printf( "Process 1400 line data, sagtd use %f seconds\n",(finish - start) / CLOCKS_PER_SEC);//以秒为单位显示之
+
+    coverDatabaseToFile(db,SAGTD_DB_FILE_PATH);
+}
+
+void mpstdProcess(treeNode * root, database * originDB, int maxDepth,float PbThreshold){
+    double  start, finish;
+    start = clock();//取开始时间
+    trackSet *A = str_main(originDB,maxBackgroundSetLength);
+    printf("mpstd processing!\n");
+
+    database * mdb = initDb();
+    migrate(mdb,SAGTD_DB_FILE_PATH);
+
+    mdb = mpstd(originDB,root,mdb,A,PbThreshold,maxDepth,0,MPSTDBreakFunc);
+    sortDB(mdb);
+    coverDatabaseToFile(mdb,MPSTD_DB_FILE_PATH);
+
+    finish = clock();//取结束时间
+    printf( "Process 1400 line data, mpstd use %f seconds\n",(finish - start) / CLOCKS_PER_SEC);//以秒为单位显示之
+
+}
+
+void analysis_main(){
+//    generateBigDatabase(DB_FILE_PATH_3,BIG_DB_FILE_PATH,200);
+//
+    double  start, finish;
+    start = clock();//取开始时间
+    printf("the sagtd and mpstd processing!\n");
+
+    database * originDB = initDb();
+    migrate(originDB,BIG_DB_FILE_PATH);     // originDB
+    treeNode * root = migrateTree(CONFIG_PATH);
     int maxDepth = 2;
     float PbThreshold = 0.5;
 
-    db = SAGTD(originDB,db,root,maxDepth,PbThreshold,maxDepth,0,SAGTDBreakFunc);
-    sortDB(db);
-    traverseDb(db,printRow);
+    sagtdProcess(root,originDB,maxDepth,PbThreshold);
+    // todo 1K数据集用时过长
+//    mpstdProcess(root,originDB,maxDepth,PbThreshold);
+
+    finish = clock();//取结束时间
+    printf( "Process 1400 line data, sagtd and mpstd use %f seconds\n",(finish - start) / CLOCKS_PER_SEC);//以秒为单位显示之
+
+    system("pause");
 }

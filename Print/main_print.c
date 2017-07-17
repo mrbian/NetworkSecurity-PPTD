@@ -112,7 +112,7 @@ void main_thread(database * originDB,treeNode * root,database * db){
 
             case 5:
                 system("cls");
-                A = str_main(db,maxDepth);
+                A = str_main(db,maxBackgroundSetLength);
                 db = SAGTD(originDB,db,root,maxDepth,PbThreshold,maxDepth,0,SAGTDNonBreakFunc);
                 db = MPSTDFunc(originDB,root,db,A,maxDepth,PbThreshold);
                 break;

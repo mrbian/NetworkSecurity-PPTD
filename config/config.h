@@ -11,7 +11,10 @@
 #define disease_len 50
 #define DB_FILE_PATH_3 "../config/database.txt"
 #define BIG_DB_FILE_PATH "../config/database_test.txt"
+#define SAGTD_DB_FILE_PATH "../config/database_sagtd.txt"
+#define MPSTD_DB_FILE_PATH "../config/database_mpstd.txt"
 #define Set_Max_Size 100
+#define maxBackgroundSetLength 2
 
 #define String_Max_Len 10
 #define Subset_Max_Length 20    // 叶子结点的最大数目

@@ -65,11 +65,18 @@ void changeDbRowSensitiveValue(database *db, int rowId, char * disease){
     strcpy(row->disease,disease);
 }
 
-database * sag(database * originDB, database * db, treeNode * root, trackRow * background, database * Cj, int maxDepth, float PbThreshold){
+database * sag(database * originDB, database * db, treeNode * root, trackRow * background, database * outCj, int maxDepth, float PbThreshold){
 //    traverseDb(Cj,printRow);
     database * Sj = initDb();
     database * Dj;
     database * db_free_temp;        // 将不用空间free掉
+
+    // 防止误操作外部Cj空间，直接copy一份
+    database * Cj = initDb();
+    db_free_temp = Cj;
+    Cj = DBUnion(Cj,outCj);
+    freeDb(db_free_temp);
+
     int i,j;
     float pb = 0;
     treeNode * twinNode, * guardingNode;
@@ -102,7 +109,7 @@ database * sag(database * originDB, database * db, treeNode * root, trackRow * b
 
                 // 7 - 8
                 db_free_temp = Cj;
-                Cj = DBSub(Cj,Dj);
+                Cj = DBSub(Cj,Dj);      // 指针赋值，无法传给外界的Cj，外界空间由外界去控制
                 freeDb(db_free_temp);
 
                 db_free_temp = Sj;

@@ -6,7 +6,7 @@
 database * SAGTD(database * originDB, database *db, treeNode* root, int MaxSetNum,float PbThreshold,int maxDepth,
                  int breakFlag, int (*breakFun)(database *, database *, database *, float, int, trackRow *)){
     // 1
-    trackSet * AResult = str_main(db,MaxSetNum);
+    trackSet * AResult = str_main(db,maxBackgroundSetLength);
 
     // 2 - 8
     int i,j,k,l;

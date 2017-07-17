@@ -97,7 +97,7 @@ database * mpstd(database * OriginDB, treeNode * root, database * Ts, trackSet *
                 continue;
 
             flag = 1;
-            for(k=0;k<row_count - 1;k++){
+            for(k=j+1;k<row_count - 1;k++){
                 if(matched[k] == NULL)
                     continue;
 
@@ -127,12 +127,17 @@ database * mpstd(database * OriginDB, treeNode * root, database * Ts, trackSet *
         if(getLengthOfDB(Cj) != 0){
             insertToSet(Tc,A->trackCollection[i]);
         }
+        printf("the Tc length in probe is %d\n",Tc->count);
+
+        freeDb(Bj);
+        freeDb(Cj);
+        freeDb(matched);
     }
 
     // 9
     while(Tc->count != 0){
+        printf("the Tc length in decrease now is %d\n",Tc->count);
         // 10 - 11
-        // todo tz和pzq有可能是集合 ...
         tz = getMaxPssRow(Tc,Ts);
         Cz = initDb();
         matched = matchRowByTrajectory(Ts,tz->tracks,tz->count);
@@ -150,7 +155,7 @@ database * mpstd(database * OriginDB, treeNode * root, database * Ts, trackSet *
         Dz = initDb();
 
         while (getLengthOfDB(Cz) != 0) {
-            traverseDb(Cz,printRow);
+//            traverseDb(Cz,printRow);
             // 15
             ri = initDb();
             int max_p_level = 0;
@@ -198,6 +203,8 @@ database * mpstd(database * OriginDB, treeNode * root, database * Ts, trackSet *
                     insertRow(Cz, matchedTemp[j]->id, matchedTemp[j]->p_level, matchedTemp[j]->trajectory, matchedTemp[j]->trajectoryCount, matchedTemp[j]->disease);
                 }
             }
+
+            freeDb(matchedTemp);
         }
 
         if(breakFlag){
@@ -225,6 +232,8 @@ database * mpstd(database * OriginDB, treeNode * root, database * Ts, trackSet *
                 Tc->count--;
             }
         }
+
+        freeDb(matched);
     }
 
     Tg = Ts;
