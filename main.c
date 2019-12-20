@@ -16,19 +16,19 @@
 
 int main()
 {
-    analysis_main();
+//    analysis_main();
 
-//    system("color f0");
-//    database * originDB = initDb();
-//    migrate(originDB,DB_FILE_PATH_3);     // originDB
-//
-//    // DB
-//    database * db = initDb();
-//    migrate(db,DB_FILE_PATH_3);
-//
-//    // tree
-//    treeNode * root = migrateTree(CONFIG_PATH);
-//
-//    main_thread(originDB,root,db);
-//    return 0;
+    system("color f0");
+    database * originDB = initDb();
+    migrate(originDB,DB_FILE_PATH_3);     // originDB
+
+    // DB
+    database * db = initDb();
+    migrate(db,DB_FILE_PATH_3);
+
+    // tree
+    treeNode * root = migrateTree(CONFIG_PATH);
+
+    main_thread(originDB,root,db);
+    return 0;
 }
